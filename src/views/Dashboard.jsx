@@ -17,6 +17,8 @@
 */
 import React, { Component } from "react";
 import ChartistGraph from "react-chartist";
+import BasicEmbed from "components/TableauEmbed/BasicEmbed.js";
+
 import { Grid, Row, Col } from "react-bootstrap";
 
 import { Card } from "components/Card/Card.jsx";
@@ -89,27 +91,8 @@ class Dashboard extends Component {
             </Col>
           </Row>
           <Row>
-            <Col md={8}>
-              <Card
-                statsIcon="fa fa-history"
-                id="chartHours"
-                title="Users Behavior"
-                category="24 Hours performance"
-                stats="Updated 3 minutes ago"
-                content={
-                  <div className="ct-chart">
-                    <ChartistGraph
-                      data={dataSales}
-                      type="Line"
-                      options={optionsSales}
-                      responsiveOptions={responsiveSales}
-                    />
-                  </div>
-                }
-                legend={
-                  <div className="legend">{this.createLegend(legendSales)}</div>
-                }
-              />
+            <Col md={5}>
+              <BasicEmbed/>
             </Col>
             <Col md={4}>
               <Card
