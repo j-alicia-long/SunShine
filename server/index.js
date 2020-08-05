@@ -1,9 +1,12 @@
 const express = require("express");
 const app = express();
-const port = 3001;
 
 const user_model = require("./user_model");
 const jwt = require("jsonwebtoken");
+const dotenv = require("dotenv");
+dotenv.config();
+
+console.log(`Your port is ${process.env.PORT}`); // 8626
 
 app.use(express.json());
 app.use(function (req, res, next) {
@@ -39,6 +42,6 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.listen(port, () => {
-  console.log(`App running on port ${port}.`);
+app.listen(process.env.PORT, () => {
+  console.log(`App running on port ${process.env.PORT}.`);
 });
