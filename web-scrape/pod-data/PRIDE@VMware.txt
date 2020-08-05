@@ -1,0 +1,767 @@
+Name	Title	Department	Location
+Sarah Abraham	Sr HR Technology Consultant, HCM Systems	HR	Home Office - Texas
+Assaf Abramovich	Sr. Member of Technical Staff	PCS	Palo Alto
+Mor Abramovitch	Sr. Strategic Sourcing Manager	Finance & Ops	Austin
+Mason Acevedo	Sr. Financial Analyst	Finance & Ops	Austin
+Andrea Acosta Rivera	Commercial Account Manager	AMER Field Sales	Austin
+Melissa Adams	Inside Solution Engineering Manager	AMER Field Sales	Austin
+Madhu Adapa	Customer Support Representative	Global Services	Bangalore
+Preeti Agarwal	Sr. MTS - VMKernel	PCS	Palo Alto
+Radhika Agarwal	Member of Technical Staff	PCS	Bangalore
+Rahul Agarwal	Staff2 Engineer	PCS	Palo Alto
+Emma Agostini	Partner Sales Associate	EMEA Field Sales	Barcelona
+David Aguilar	Sr IT Project Manager	Information Technologies	Palo Alto
+Danni Allen	EMEA PSO Resource Analyst	Sales	Ballincollig
+Amanda An	Regional HR Services Specialist	HR	Shanghai
+Konstantinos Antzakas	Senior Data Engineer	Corporate	London
+Amy Appleyard	VP, Sales	CB Opex	Waltham
+John Aquilino	Sr. Manager, Workplace, Atlanta	Finance & Ops	Atlanta
+Gabriel Arbe	Business Operations Director- Latin America	AMER Field Sales	CORAL GABLES
+Anthony Arce Sandoval	Centralized HR Services Specialist	HR	Heredia
+Erinne Arias	D&I Program Manager	Information Technologies	Home Office - California
+Arthur Aringdale	Senior Technical Support Engineer	Global Services	Broomfield
+Jonathan Arnowitz	Colleague Experience Architect	Information Technologies	Palo Alto
+Francisco Arrieta	Commission Analyst	Finance & Ops	Heredia
+Maria Carolina Artavia	HR Technology Analyst, Operations	HR	Heredia
+Prafulla Arvind	Manager, R & D	PCS	Palo Alto
+Mercedes Aso	Customer Success Engineer	CB Opex	Reading
+Ron Assini	Senior Manager, Professional Services - TAM	Sales	Home Office - Massachusetts
+Massimo Asuni	Colleague Support Engineer	EMEA Field Sales	Milan
+Kristin Atkins	Director, Global Impact Communications	Marketing	Palo Alto
+Sahithi Ayloo	Senior Member of Technical Staff	PCS	Palo Alto
+Nikhil Ayyagari	Member of Technical Staff	PCS	Palo Alto
+Alan Babilinski	Technical Program Manager	PCS	Atlanta
+Rashmi Bachireddy	Senior Analyst, Partner Business Operations	Sales	Palo Alto
+Amy Baker	HR Management Partner	HR	Home Office - Washington
+Sanjana Baldwa	Senior UX Designer	PCS	Boston
+Hale Bales	Member Technical Staff 3	Corporate	Beaverton
+Mohammed Baloch	M&A Integration Manager, WW Renewals	Sales	Austin
+Amanda Banker	Partner Programs - Sr. Manager Partner Experience	Partner Sales Acceleration Team	Home Office - Kansas
+Jenna Banks	Senior Manager, Technical Support	Global Services	Broomfield
+Kelsey Barber	Program Manager, WWRACE Operations	Sales	Atlanta
+Dani Barkelew	Senior Technical Support Engineer	Global Services	Broomfield
+Hazel Barker	Colleague Support Engineer	Information Technologies	Atlanta
+Jackie Barker	Senior Global Program Manager, Strategic Programs	Sales	Home Office - Florida
+Allison Barnaby	Sales Development Manager	CB Opex	Boulder
+Mike Baron	Talent Acquisition Manager	HR	Home Office - Oregon
+Sandra Barreto	Executive Administrative Assistant	CTO	Palo Alto
+Kieran Barry-Murphy	International Controller	Finance & Ops	Ballincollig
+Shawn Bass	VP, CTO - EUC	PCS	Home Office - Illinois
+Eric Beach	Staff Solutions Architect	PCS	Atlanta
+Dexter Bearden-Tellez	Technical Support Engineer (Application Management / Subject Matter Expert)	Global Services	Atlanta
+Bjoern Becker	Technical Support Engineer Level 2	CB COGS	Ballincollig
+Lisa Becker	Commercial Account Manager	AMER Field Sales	Austin
+Meriem Bekka	Sr. Program Manager	HR	Palo Alto
+Efrat Ben Harush	Partner Business Manager	EMEA Field Sales	Herzliya
+Brian Bender	Cloud Customer Success Manager	Cloud Sales	Broomfield
+Miki Berdichevsky	Staff Engineer	CB Opex	Herzliya
+Daniel Beveridge	Director, Advanced Technology Group	CTO	Home Office - Florida
+Malini Bhandaru	Senior Staff Open Source Engineer	Palo Alto
+Dixitha Bharath Kumar	Member of Technical Staff	PCS	Atlanta
+Gaya Bhaskar	Technical Program Manager	PCS	Palo Alto
+Mitul Bhat	Senior Manager, User Experience & UI	Information Technologies	Palo Alto
+Giribabu Bikki	Staff Engineer	PCS	Palo Alto
+Ryan Bishop	Global Labs Sr Engineer, DPX	Global Services	Broomfield
+Aaron Blackmon	Commercial Account Manager	AMER Field Sales	Austin
+Amanda Blevins	Senior Director & Chief Technologist, Office of the CTO	CTO	Remote Office - Colorado
+Lori Blonn	Sr Research Operations Manager	CTO	Palo Alto
+Anita Bloss	Analyst II, Order Management	Finance & Ops	Ballincollig
+Megan Bludau	Talent Acquisition Manager	HR	Home Office - Texas
+Aaron Bolthouse	Senior Solution Engineer	AMER Field Sales	Home Office - Illinois
+Linus Bourque	Principal Instructor	Global Services	Home Office - Canada
+Amy Bowersox	Member Technical Staff	CB Opex	Boulder
+Benjamin Bowman	Staff Technical Account Manager, Team Lead	Sales	Home Office - Illinois
+Amber Boyle	Director, Diversity and Inclusion	HR	Home Office - Texas
+Scott Bradshaw	Senior Manager, Americas Physical Security	Information Technologies	Atlanta
+Tiffani Bragg	Manager, Compliance Training	Legal	Home Office - Texas
+Abbie Brand	Senior Technical Editor	Sales	Ballincollig
+Louie Brann	Member Technical Staff 2	Corporate	Denver
+Kate Brinkley	EUC Business Operations Manager, Business Process Optimization	PCS	Atlanta
+Christopher Britt	Community Manager	Information Technologies	Remote Office - California
+Chelsea Brooks	Legal Operations Manager I	Legal	Austin
+Ricky Brooks	VMW Academy Manager: AMER	Sales	Austin
+Briana Brophy	Engineering Program Lead	PCS	Palo Alto
+Anita Brown	EUC SE Manager	EUC Total	Home Office - Virginia
+Zach Brown	Senior Technical Support Engineer	Global Services	Broomfield
+Cristopher Broyles	Accessibility Manager	PCS	Home Office - Ohio
+Shirlyn Bulda	Senior Analyst, Order Management	Finance & Ops	Palo Alto
+Noel Burleson	Senior Client Solutions Executive	Sales	Home Office - Texas
+David Burton	Director, Colleague Experience & Technology - EMEA	Information Technologies	Staines
+Ken Busch	Manager Engineering	CB Opex	Waltham
+LaTreece Butler-Morton	Director, Product Lifecycle Operations Management	Finance & Ops	Palo Alto
+Lucy Callan	Project Manager	Sales	Remote Office - Australia
+Lauren Cappellin	Inside Sales Associate	AMER Field Sales	Austin
+Jecoby Carter	Content Specialist	Marketing	Atlanta
+Nick Caskey	Member of Technical Staff - Professional	PCS	Palo Alto
+Jess CASTANEDA	Technical Support Engineer	Global Services	Broomfield
+Julie Cecilio	Senior Director, WW Sales Enablement Center of Excellence	Sales	Palo Alto
+Sowmya Chandrashekarpur	Manager, Global Research & Analysis	Sales	Palo Alto
+David Chang	Support Specialist I - BTA Business Apps Support	Information Technologies	Bangalore
+Jeff Chang	Sr. Director, Corporate Globalization	Marketing	Palo Alto
+Lily Chang	VP, XMO & SVM Services	Finance & Ops	Palo Alto
+Alonso Chaves	Associate Engagement Manager	Sales	Heredia
+Daniela Chaves Mosquera	Program Specialist	Finance & Ops	Heredia
+Weien Chen	Staff Technical Support Engineer	Corporate	Shanghai
+Ken Cheney	Director, Program Management	Global Services	Home Office - Minnesota
+Cali Chin	Director, Human Resources Management Partners	HR	Home Office - Texas
+Jessamine Chin	Director, VMware Foundation	HR	Palo Alto
+Mandy Ching	Talent Acquisition Manager	HR	Bellevue
+Andy Chisholm	Administrative Assistant	Corporate	London
+Abhilasha Choudhri	Senior Business Process Architect	Finance & Ops	Palo Alto
+Meng Chow	Staff Open Source Program Manager	CTO	Palo Alto
+Joe Christley	Manager, SaaS Operations	PCS	Atlanta
+Eric Cipra	Sr. Designer	Corporate	New York
+Robbie Clutton	Sr Director, EMEA Labs and App Services	Corporate	London
+Gary Cobbett	Senior Technical Support Engineer – DEMC CCOE	PCS	Broomfield
+Pam Cocca	Director, Colleague Experience & Technology - Americas	Information Technologies	Palo Alto
+Okan Cohen	Engagement Specialist, License Compliance Services	Sales	Staines
+Phillip Cohen	Sr. Solutions Engineer, Cloud Service Providers	Cloud Sales	Home Office - New York
+Eric Cole	Customer Program Manager	Marketing	Home Office - Oregon
+Niall Condon	Sr. Training Media Producer	Sales	Ballincollig
+Ciara Conlon	GSS Senior Systems Program Manager	Global Services	Ballincollig
+Andrea Contreras	Lead Business Analyst, WW Partner Programs	Partner Sales Acceleration Team	Austin
+Sal Contreras	Director, Sales Finance	Finance & Ops	Palo Alto
+Jason Conyard	VP, IT	Information Technologies	Palo Alto
+Amee Cooper	Senior Director, R&D Operations	PCS	Palo Alto
+Michael Cooper	Sr. Member Technical Staff	CB Opex	Home Office - District of Columbia
+Bianca Copello	UX Designer	PCS	Atlanta
+Jae Corey	Federal Marketing Manager	Marketing	Reston
+Daniella Corricelli	Product Manager	Corporate	New York
+Daphne Cortez	Executive Assistant	AMER Field Sales	Palo Alto
+Ronan Cosme	Senior Program Manager, Employee Insights	Global Services	Palo Alto
+Raegan Cowger	Sr. Executive Administrative Assistant	PCS	Palo Alto
+Dillon Cox	Federal Inside Sales Representative	AMER Field Sales	Reston
+Elia Cravioto	Program Management – Project Management, Event Planning and Executive Administration, VMware DTS, Office of the CTO	CTO	Palo Alto
+Travis Croft	Sr. Director, Pricing & Monetization Operations	Finance & Ops	Palo Alto
+Adam Cronin	IT Engineer	CB Opex	Home Office - Massachusetts
+Santina Croniser	Senior Accessibility Test Engineer	PCS	Palo Alto
+Eric Crossley	Staff Architect, TAM Solutions	Sales	Home Office - Oregon
+Amy Crotchett	Business Change Manager, Adoption, Change Management & Training	Finance & Ops	Home Office - Texas
+Molly Crowther	Sr. Technical Program Manager	Corporate	San Francisco
+Natalia Cudlip	Designer 3	Corporate	Santa Monica
+Isa Cuevas	Workplace Manager, Palo Alto, Employee Services Operations	Finance & Ops	Palo Alto
+Chris Cummings	Technical Support Manager	Global Services	Broomfield
+Jessica Cunha	Regional HR Services Specialist	HR	Sao Paulo
+Jerrid Cunniff	Product Line Manager	PCS	Palo Alto
+Rachel D'Ascanio	Facility Coordinator	Corporate	Denver
+Sonya D'sa	Benefits Consultant	HR	Palo Alto
+Francis Daly	Senior Staff Technical Content Architect and Manager	Sales	Ballincollig
+Shannon Daly	Sr. Director, Global Benefits	HR	Palo Alto
+Shelia Danek	HR Source Employee Advisor	Corporate	Austin
+Sarah Daniels	Sr. Marketing Mgr, Education Programs	Sales	Home Office - California
+Kelly Dare	Staff Technical Account Manager	Sales	Home Office - Texas
+Adyasha Das	Analyst II - IB Services, Renewals Operations	Sales	Pune
+Heather Davidson	Program Manager	Sales	Home Office - Pennsylvania
+Sara Davies	EMEA Employee and Executive Communications Senior Manager	Marketing	Staines
+Tessa Davis	Staff Solution Engineer	APAC Field Sales	Wellington
+Angel De Miguel	Member of Technical Staff	PCS	Seville
+Catia De Moraes	Member of Technical Staff	PCS	Atlanta
+Katie Dean	HR Management Partner	Corporate	Bellevue
+Kendra DeCoste	Global Partner Marketing Director	Marketing	Home Office - California
+Jeeri Deka	Member of Technical Staff	PCS	Bangalore
+Kim Delgado	Customer Success Architect	Global Services	Home Office - California
+Jeanette Denham	Chief of Staff	EUC Total	Atlanta
+Ellie DePue	Network Virtualization Engineer	Global Services	Broomfield
+Amrish Desai	Lead QA Engineer	Information Technologies	Palo Alto
+Sahidya Devadoss	Sr. Product Owner	CB Opex	Waltham
+Divya Devassy	Talent Acquisition Manager	HR	Bangalore
+Jayanta Dey	Vice President, Engineering	PCS	Palo Alto
+Yordan Dimitrov (CSP)	Manager R&D	PCS	Sofia
+Srebrina Dimitrova-Ilieva	Senior Manager Colleague Support	Information Technologies	Sofia
+Meagan Donnelly	Senior Talent Acquisition Manager	HR	Boston
+Jennifer Downing	Partner Support Senior Specialist	Global Services	Ballincollig
+Ian Drennan	Staff Engineer	PCS	Atlanta
+Gina Dukes	Sr HR Technology Analyst, Talent Systems	HR	Home Office - Georgia
+Bhagyaraj Dulipalla	Business Operations Analyst	APAC Field Sales	Bangalore
+Samantha Dunning	Manager, Global Talent Acquisition Coordination	HR	Home Office - Washington
+Sarah Duston	Senior EUC Content Strategist	PCS	Atlanta
+Tasha Easton	Sr Program Manager, Global People Development	HR	Palo Alto
+Matt Eaton	Strategic Sourcing Manager	Finance & Ops	Broomfield
+Marcela Echavarria	Academy Solutions Engineer Specialist	Customer HQ	Atlanta
+Georg Edelmann	Senior Business Development Manager - Dell Technologies	CTO	Home Office - New Hampshire
+Ben Eisenpress	Sr. Manager, Strategy & Planning	IOT	Palo Alto
+Brian Ellenberger	Senior Recruiter	HR	Home Office - Arizona
+Lizzie Eller	Academy Solutions Engineer	Customer HQ	Austin
+Eddie Eriksson	Sr. IT Technical Project Manager	Information Technologies	Palo Alto
+Kate Erwin	Senior Litigation Paralegal	Legal	Palo Alto
+Adam Esch	Senior Lab Content Developer	Sales	Home Office - Illinois
+Maricela Esmeralda	Solution Engineer	Cloud Sales	Home Office - Texas
+Karla Espinoza	Executive Assistant	PCS	Palo Alto
+Alex Espiritu	Consultant, AMER EUC	Sales	Home Office - Nevada
+Candice Estrada	Senior Consultant, Federal	Sales	Home Office - Arizona
+Rick Evans	Senior Technical Content Developer	Sales	Palo Alto
+Gabriela Faba	Senior Technical Content Developer	Sales	Heredia
+Willex Fan	WW Specialist Sales Finance Manager	Finance & Ops	Palo Alto
+Philip Farra	Digital and Marketing Programs Manager	Marketing
+Justin Farrell	Product Manager	Corporate	Sydney
+Pauline Fei	Senior Business Analyst	PCS	Palo Alto
+Shawn Fenwick	Legal Operations Manager	Legal	Austin
+Jordan Fernandez	Sales Optimization Intelligence Manager - Worldwide Commercial	Home Office - Texas
+Tasnim Fidali	Staff Technical Writer	CTO	Palo Alto
+Thomas Fields	Associate Consultant	Customer HQ	Atlanta
+Cheryl Filipek	Technical Account Manager	Sales	Home Office - Illinois
+Rachel Fisher	Director, Strategic Execution Lead - Security Business Unit	CB Opex	Austin
+Nataliya Fleshler	HR Management Partner	HR	Atlanta
+Julie Flood	Senior Business Readiness Manager	Sales	Palo Alto
+Frances Fortanely	Director of VeloCloud Partner Programs	PCS	Austin
+Rick Franke	VP Global Services and Support	Global Services	Atlanta
+Danielle French	Sr. Recruiter	HR	Palo Alto
+Jose Pablo Fuentes	Senior Pricing Analyst	Corporate	Heredia
+Laura Fuentes Vicente	Talent Acquisition Coordinator	Finance & Ops	Barcelona
+Muhammad Fuzail	Consultant, PSRD	Global Services	Atlanta
+Kasual Gadsden	Program Manager, VMware Cloud Technical Services	Cloud Sales	Atlanta
+Hunter Gaiotti	Global Giving Program Manager	HR	Palo Alto
+Maritza Gamboa	Talent Acquisition Diversity & Inclusion Program Manager	HR	Boston
+Balasubramanian Ganapathy	Senior Systems Engineer	APAC Field Sales	Bangalore
+Amy Gannaway	VP Compensation, Benefits and HRIS	HR	Palo Alto
+Kristin Gansheimer	Colleague Support Engineer	Information Technologies	Reston
+David Garcia	Technical Support Engineer	Global Services	Ballincollig
+Liz Gargis	Manager, Renewals EUC	Sales	Atlanta
+Mirah Gary	Staff Software Engineer	PCS	Remote Office - UK
+Dora Garza	Software Sourcing Specialist	Finance & Ops	Austin
+Kelley Geaney	Executive and Internal Communications, Worldwide Professional Services	Dell Execution Team	Home Office - Massachusetts
+Patrick Geiger	Technical Support Manager	Global Services	Broomfield
+Eric Gelinas	SDDC Global Account Manager	SDDC Sales	Home Office - Massachusetts
+Pat Gelsinger	Chief Executive Officer	Corporate	Palo Alto
+Kelli Gessner	Accountant	Finance & Ops	Home Office - Washington
+Nima Gharavi	Account Manager - Product Specialist	SDDC Sales	Home Office - Illinois
+William Gilreath	Senior Member of Technical Staff	PCS	Home Office - Oregon
+Elisha Jenifer Giron	Workplace Coordinator	Finance & Ops	Singapore
+Vance Gleton	Cloud Customer Success Manager	Cloud Sales	Atlanta
+Kristina / Krissy Glushkova	IT EUS Project Manager	Information Technologies	Sofia
+Cin Cin Go	Director, Sales	APAC Field Sales	Jakarta
+Olivier Godfroid	Education Solution Consultant	Global Services	Machelen
+Frankie Gold	Member of Technical Staff	CTO	Home Office - Oregon
+Nick Goldman	PSO Consulting	Sales	Remote Office - UK
+Alex Goldsmith	Director, Public Relations, Product and Technology PR	Marketing	Palo Alto
+Francisco Gomez	Senior Program Manager, Customer Ops	PCS	Atlanta
+Josep Gomez	Senior Analyst II - Payroll	Finance & Ops	Home Office - Costa Rica
+Josseline Gomez	Associate Program Manager	Sales	Heredia
+Aimee Goncalves	Technical Support Engineer	Global Services	Atlanta
+Carlos Goncalvez	Product Line Marketing Manager, Strategy and Analytics	PCS	Palo Alto
+Jeff Goodall	Global Meetings and Events Specialist	Finance & Ops	Palo Alto
+Subhash Gopinath	Sr. Manager	PCS	Palo Alto
+Alex Gotsis	Member of Technical Staff 2	PCS	Palo Alto
+Pranay Goyal	Manager, Web Personalization	Marketing	Palo Alto
+Emily Granacher	Project Manager, NEMEA	Sales	Staines
+Ciara Grant	Senior Sourcing Specialist	HR	Ballincollig
+Oliver M. Graves III	Technical Writer	Corporate	San Francisco
+Joe Graziano	Senior Consultant, AMER EUC	Sales	Home Office - Pennsylvania
+Julia Gregson	Sr. Manager, CET Service Delivery	Information Technologies	Palo Alto
+Harry Grigorov	Program Manager, Advanced Development	Finance & Ops	Sofia
+Idan Grinshpon	Lead Solution Engineer	EMEA Field Sales	Herzliya
+John Grosshandler	Account Executive	Corporate	Chicago
+Garrette Grouwstra	Senior Consultant	Sales	Home Office - Canada
+George Guempel III	Director, EUC GTM Strategy	PCS	Home Office - Washington
+Babatounde Francois Guezo	Consultant, SDDC France	Sales	Paris La Defense Cedex
+Maria Gugerty	Director, Global Cloud Sales Program & Execution Team	Cloud Sales	Palo Alto
+Arnab Guha	Director, Digital Supply Chain	Finance & Ops	Palo Alto
+Chris Gunadi	Member of Technical Staff 3	Corporate	Cambridge
+Simran Gupta	Program Manager, R&D Education	PCS	Bangalore
+Vivek Gupta	Program Manager	Finance & Ops	Bangalore
+Raghvendran Gurumurthy	Senior Analyst - Delivery Operations	Finance & Ops	Bangalore
+Nanda Guruswamy	Business Analyst	Information Technologies	Palo Alto
+Crystal Gutierrez	Associate, Event Operations	Marketing	Palo Alto
+Kevin Hagopian	Solution Architect	Global Services	Home Office - Canada
+Dustin Hall	Manager, Colleague Support - Executive Support	Information Technologies	Palo Alto
+Chelsea Hand	University Recruiter	HR	Home Office - Canada
+Cathy Handzel	Sr. Technical Program Manager	PCS	Palo Alto
+Hristina Haralampieva	Manager Events and Brand	Finance & Ops	Sofia
+Melissa Harlow	Talent Acquisition Coordinator	HR	Home Office - Texas
+John Harned	Senior Director, Digital Customer Experience	Marketing	Palo Alto
+Alyssa Harper	Intern	Corporate	Palo Alto
+Stephen Harris	Vice President, Enterprise Data & Analytics	Finance & Ops	Palo Alto
+Jessica Hatz	Product Marketing Manager Intern	PCS	Home Office - Washington
+Crystal Haywood	Executive Assistant	EUC Total	Atlanta
+Emma Heath	Social Media and Content Strategist	Marketing	MELBOURNE
+Padmini Hegde	Public Relations - Manager	Marketing	Utrecht
+Ellen Heintz	Learning Curriculum Architect/Instructional Designer, Learning Programs	Sales	Remote Office - Oregon
+Adrienne Heiskanen	Senior Manager	Sales	Palo Alto
+Maria Hennecke	HR Management Partner	HR	Austin
+Dee Her	Workplace Supervisor 2, Palo Alto & Data Center	Finance & Ops	Palo Alto
+Jason Herman	Senior Director, Solution Lead – Security	Dell Execution Team	Palo Alto
+Rachel Hill	HR Business Insights Consultant	HR	Austin
+Mimi Hills	Director, Product Globalization	PCS	Palo Alto
+Suzumi Hirai (Nakamura)	Marketing Specialist	Marketing	Tokyo
+Maria Ho	Associate, Partner Productivity Internal Communications	Partner Sales Acceleration Team	Palo Alto
+Nelson Ho	Member of Technical Staff	Strategy & Corp Dev	Palo Alto
+Arron Hocking	Staff Solutions Architect	Corporate	Home Office - Colorado
+Aleksandra Hohrova	Identity Manager administrator EUS, level 2	Information Technologies	Sofia
+Casey Holland	Strategic Sourcing Manager	Finance & Ops	Austin
+Bryan Hope	Director Unified Communications and Collaboration	Information Technologies	Palo Alto
+Deb Howard	Intel Strategic Alliances Marketing Manager	Marketing	Home Office - Washington
+Sabina Hristova	Program Manager, Ecosystem Engagement and Communications	Finance & Ops	Sofia
+Nancy Hsieh	Member Technical Staff 2	Corporate	Santa Monica
+Karen Huddleston	Member Technical Staff 3	Corporate	Palo Alto
+Joshua Huffman	Technical Lead	CB COGS	Home Office - Iowa
+Ricardo Humareda	Financial Analyst	Finance & Ops	Atlanta
+Jalissa Hunter	Technical Account Manager	Customer HQ	Atlanta
+Ryan Hunter	Director - Cloud Economics	Cloud Sales	Home Office - Minnesota
+Pia Huxel	Finance Manager	Finance & Ops	Heredia
+David Iken	Marketing Analyst	Marketing	Palo Alto
+James Ingalsbe	Sr. Manager, International Digital Marketing	Marketing	Palo Alto
+Nakul Anil Ingley	Member of Technical Staff	PCS	Austin
+Anees Iqbal	Senior Director, Cloud Services	PCS	Palo Alto
+TJ Jaeckle	Talent Acquisition Partner	HR	Austin
+Niranjan Jahagirdar	Staff Technical Editor	PCS	Bangalore
+Dan Jahner	Sr. Product Manager	Corporate	San Francisco
+Kevin Jenkins	Sr. Director of Enterprise EUC Sales	EUC Total	Home Office - California
+Marlyn Jenkins	Senior Excutive Assistant	PCS	Palo Alto
+Saurabh Jhunjhunwala	Consultant, PSRD	Global Services	Atlanta
+Angel Jimenez	Service Development Engineer	PCS	Palo Alto
+Lynnee Jimenez	Senior Workplace Manager, Business Process	Finance & Ops	Palo Alto
+Yanju Jin	Software Engineer	PCS	BEIJING
+Caitlyn Johnson	University Manager	HR	Home Office - Florida
+Julie Johnson	Manager, HR Services	HR	Austin
+Rafaela Johnson	Account Services Specialist	Global Services	Atlanta
+Steve Jones	Staff Engineer	PCS	Boston
+Judy Jordan-Biesele	Senior Manager, R&D	PCS	Palo Alto
+Charles Joseph	Senior Director Technology Audit	Finance & Ops	Palo Alto
+Herline Joseph	Associate Consultant	Customer HQ	Atlanta
+Kasie Joseph	Solution Specialist	EUC Total	Home Office - Texas
+Deepa Joshi 'DJ'	Senior Program Manager, Xplorer Group	CTO	Palo Alto
+Tamara Juric	Senior Product Marketing Manager	Marketing	Atlanta
+Jimmy Kacius	Associate Technical Account Manager	Sales	Boston
+Michelle Kaiser	Staff Technical Account Manager, Team Lead	Sales	Home Office - North Carolina
+Uma Kaladi	VMware Cloud on AWS Solution Engineer	Customer HQ	Austin
+Lili Kalibatseva	Commissions Analyst, Level 2	Finance & Ops	Sofia
+Hanna Kalmer	SBU Channel Marketing Manager	CB Opex	Waltham
+Neeti Karakoti	Senior Recruiter	HR	Bangalore
+Sonali Karwa	Member of Technical Staff 3	PCS	Palo Alto
+Benjamin Kastroll	Product Line Manager	PCS	Atlanta
+Gagandeep Kaur	Member Technical Staff 2	Corporate	London
+Jatinder Kaur	Sr. Manager, IT (PS & Field Sales Solution)	Information Technologies	Palo Alto
+Manmeet Kaur	Program Management	CTO	Palo Alto
+Alannah Keena	Senior Project Manager	Sales	Ballincollig
+Stephen Keily	NSX Senior Manager Technical Support	Global Services	Ballincollig
+Margaret Kelleher	Senior Manager, Change Management	Finance & Ops	Palo Alto
+Daniel Kennedy	Sr Director, Customer and Partner Relationship Programs	Marketing	Palo Alto
+Nicola Kerins	Senior Business Analyst, Finance Systems and Solutions	Finance & Ops	Ballincollig
+Meghambari Khavnekar	Member of Technical Staff	PCS	Atlanta
+Shandra Kidd	Technical Education, Operations	PCS	Palo Alto
+Hannah Kim	Manager Technical Support	Corporate	Palo Alto
+Jamie Kim	Communication Specialist	Marketing	Seoul
+Colin Kincaid	Member of Technical Staff	PCS	Palo Alto
+Vanya Kiritzova	Senior Staff Technical Writer	PCS	Sofia
+Ryan Klein	Product Owner	CB Opex	Home Office - Colorado
+Telana Kleinhans	Senior Solution Engineer – Cloud Management	SDDC Sales	Johannesburg
+Kiran KN	Information Systems Engineer	Information Technologies	Bangalore
+Anshu Kohli	Employee Relations Manager	HR	Bangalore
+Vijay Kolappan	Staff Engineer	PCS	Palo Alto
+Sergey Kolesov	Localization Manager	Marketing	Home Office - Pennsylvania
+Katrina Koppel	Account Services Specialist	Global Services	Atlanta
+Murli Kotteyil	VP, Strategy	Strategy & Corp Dev	Palo Alto
+Steven Kroh	Member Technical Staff	CB Opex	Home Office - New York
+Soham Sunil Kulkarni	Member of Technical Staff - Professional	PCS	Palo Alto
+Carson Kulp	Senior Consultant, AMER EUC	Sales	Home Office - South Carolina
+Anant Kumar	Staff Engineer	PCS	Palo Alto
+Bach Kuoch	Sr. Member of Technical Staff	PCS	Palo Alto
+Ramesh Kurnool	Vice President, Product Operations and Quality Engineering	PCS	Palo Alto
+Cyril Kuruvilla	Compensation Consultant	HR	Palo Alto
+Emily Kurzinski	Associate Consultant II	Sales	Home Office - Colorado
+Angela Kvasay	Sr. Application Support Engineer	Global Services	Atlanta
+Stan Kwong	Senior Business Readiness Manager	Sales	Palo Alto
+Kam Kyrala	Manager Site Reliability Engineering	PCS	Home Office - California
+Drew LaBonne	Global Labs Manager, Digital Platform Experience	Global Services	Broomfield
+Sheldon Lachambre	Director, R&D	PCS	London
+Brittany Laderoute	Program Coordinator	HR	Boston
+Kevin Lahti	Sr. Technical Support Engineer	Corporate	Raleigh
+Danielle Lancashire	Staff Engineer	PCS	Remote Office - Germany
+Stephanie Landero	Manager, Revenue Global Process Owner	Finance & Ops	Palo Alto
+Rich Lang	Senior Vice President, HR	HR	Palo Alto
+Jessica Langrock	Sales Operations Associate	Customer HQ	Palo Alto
+Yancey Larochelle-Williams	Program Manager	PCS	Atlanta
+Doug Lavanchy	Senior Director, Strategic Programs	Sales	Palo Alto
+Stephane Layolle	Process Analyst	Sales	Atlanta
+Nam Le	Staff Engineer	PCS	Palo Alto
+Anthony Lee	Executive Assistant	PCS	Palo Alto
+Pamela Lee	Network Architect	Information Technologies	Palo Alto
+Rachel Leekin	Kubernetes Field Engineer	PCS	Home Office - New York
+James LeFort	Sr. Systems Engineering Manager, Enterprise HCI	SDDC Sales	Home Office - Texas
+Debra Legere	Talent Acquisition Coordinator	HR	Home Office - Canada
+Rafael Lemos	Senior Business Analyst, FSS	Global Services	Mexico City
+Carlos Leon	Staff Product Designer	Information Technologies	Palo Alto
+Richard Leong	Senior Director, Colleague Experience and Technology	Information Technologies	Palo Alto
+Jeri Levine	Senior Member of Technical Staff	PCS	Boston
+Hongliang Li	MTS	PCS	Palo Alto
+Nori Li	Member of Technical Staff 2	PCS	Home Office - South Carolina
+Xiaoxin Li	Member of Technical Staff	PCS	Bellevue
+Ilya Lib	Sr. Member of Technical Staff	PCS	Palo Alto
+Anson Lim	Senior Recruiter	HR	Singapore
+Taina Lima	Solution Engineer	AMER Field Sales	Sao Paulo
+Madhura Limaye	Sr Product Line Marketing Manager	PCS	Palo Alto
+Catherine Liu	Marketing Specialist - Briefing Center Management	Marketing	BEIJING
+Katherine Lopez	Support Account Manager	Global Services	Heredia
+Ramona Estibalis Lopez	Colleague Support Engineer	Information Technologies	Boston
+Carole Low	Manager, Change Management	PCS	Palo Alto
+Margaret Lowe	Executive Assistant to Pat Gelsinger, CEO	Corporate	Palo Alto
+Yoshika Lowe	WWCO SaaS Operations Manager	Sales	Atlanta
+Christian Lowery	Digital Marketing Manager	Marketing	Home Office - Texas
+David Lowry Whitt	Sr. Manager Labs	Corporate	Seattle
+Scott Lum	Web Architect	Corporate	Remote Office - California
+Dixon Ly	Staff Engineer	PCS	Palo Alto
+Jillian Lynch	HR Coordinator	Corporate	New York
+Carolyn Ma	Member of Technical Staff	CB Opex	Palo Alto
+David Macaraeg	Program Manager - Global Order Management	Finance & Ops	Palo Alto
+Wendy Macias	Director, Americas Benefits	HR	Palo Alto
+Tina Maddox	SWAT Recruiter	PCS	Remote Office - Texas
+Edgar Maddry	EUC Customer Success Manager	Sales	Home Office - California
+Scott Magrath	VP, End User Computing Cloud Operations	PCS	Home Office - North Carolina
+Dinesh Maheshwari	Staff Engineer 2	PCS	Palo Alto
+Khalid Mahrach	Digital Partner Sales Associate	EMEA Field Sales	Barcelona
+Toni Maier	Digital Sales Commercial Associate	EMEA Field Sales	Barcelona
+Vrinda Malhotra	Member of Technical Staff	PCS	Bangalore
+Alaree Malone	Sr Mgr - FE Strategy	PCS	Atlanta
+Nina Manela	Program Manager, Procure to Pay	Finance & Ops	Palo Alto
+Elaine Manzanilla	Executive Admin for IP and PTLG Legal Teams	Legal	Palo Alto
+Jayaprakash Mara	Member of Technical Staff	PCS	Atlanta
+Lauren Margrave	Senior Marketing Manager	Marketing	Home Office - North Carolina
+Julia Marsh	Director, Business Process Architect	Finance & Ops	Austin
+Laura Marsiglio	Senior Client Solutions Executive	Sales	Home Office - Pennsylvania
+Andrea Marston	Director, Talent Acquisition, EMEA	HR	Staines
+Breanna Martin	Senior Manager, WWRACE Operations	Sales	Home Office - New Mexico
+Jory Martin	Sr. Manager, Digital Marketing Operations	Marketing	Palo Alto
+Raina Masand	Member Technical Staff 3	Corporate	San Francisco
+Jaro Masar	Lead Product Manager	PCS	Palo Alto
+Nishad Mathur	MTS 3	PCS	Palo Alto
+Ciara McAdam O'Connell	Senior Business Analyst – BTA Business Apps Support	Information Technologies	Ballincollig
+Andy McAdams	Manager Product Management	CB Opex	Home Office - Pennsylvania
+Jamie McAtamney	Sr. Member Technical Staff	Corporate	Palo Alto
+Jill McCarthy	Partner Support Specialist	Global Services	Ballincollig
+Marisa McCarty	Academy Inside Sales Representative	Customer HQ	Austin
+Jennifer McDaid	Senior Information Architect	PCS	Home Office - New Hampshire
+Tom McDermott	Member of Technical Staff - Professional	CB Opex	Waltham
+Lauren McDonnell	Director, North America Field Marketing	Marketing	Home Office - Georgia
+Sarah McGeary	Senior Manager, HR Communications	Marketing	Home Office - California
+Vincent McNeeley	Sr. Member of Technical Staff	PCS	Atlanta
+Joshua McShane	Technical Support Engineer - 2, Premier Support	Global Services	Atlanta
+Alpana Mehta	Product Manager Intern	PCS	Home Office - Texas
+Nicole Mena	Academy Inside Sales Representative	Customer HQ	Austin
+Lucesita Mendez Arroyo	Senior Manager, Solution Engineering	AMER Field Sales	CORAL GABLES
+Rene-Francois Mennecier	Staff Cloud Solutions Architect	Cloud Sales	Paris La Defense Cedex
+Purushotham Reddy Mera	Sr. QA Engineer	Information Technologies	Palo Alto
+Alex Mercer	Senior Director, EUC Global Accounts	EUC Total	Home Office - Colorado
+Chris Messier	Senior Program Manager , Customer Success	Cloud Sales	Palo Alto
+Jodi Metzger	Senior Manager, Education Business Operations	Global Services	Austin
+Holly Mewis	Client Solutions Executive	Sales	Home Office - Texas
+Sarah Michaelson	Member Technical Staff 3	Corporate	Denver
+Kevin Michalski	Lead Applications Administrator	Finance & Ops	Home Office - Indiana
+Diana Militante	Incentive Operations Specialist	Customer HQ	Palo Alto
+Joshua Miller	Staff Solutions Architect	AMER Field Sales	Home Office - Oklahoma
+Laurie J Mintz	Senior Intellectual Property Counsel	Legal	Palo Alto
+Heimar Miranda	Partner Support Representative	Global Services	Heredia
+Marco Miranda	Manager, Global Partner Operations	Sales	Heredia
+Jason Misleh	Senior Consultant, AMER EUC	Sales	Home Office - Michigan
+Marvin Mitchell	Advisory Engagement Director	Corporate	Home Office - New York
+Sawyer Moch	Senior Technical Support Engineer	Global Services	Broomfield
+Sobia Mohammad	Academy EUC Sales Specialist	Customer HQ	Austin
+Veronica Molina	Senior Recruiter	HR	Heredia
+Fernando Mollon	VP, Latin America Sales	AMER Field Sales	Buenos Aires
+Kevin Montero	Support Account Manager	Global Services	Heredia
+Abbey Moore	Customer Support Representative	Global Services	Ballincollig
+Debbie Moore	Senior Program Manager	PCS	Home Office - California
+Nestor Mora	Senior Analyst II - Payroll	Finance & Ops	Heredia
+Natalia Morales Vega	Senior Business Change Specialist, IT CET	Information Technologies	Heredia
+Jonathan Morin	Senior Product Manager	PCS	Boston
+Andy Morris	Sr. Manager, Tech Marketing Content Management	PCS	Palo Alto
+Erin Morris	Senior Solution Engineer	AMER Field Sales	Home Office - Florida
+Hamza Muhammad	VMware Cloud on AWS Sales Specialist- HEALTHCARE	Cloud Sales	Austin
+Ayanant Mukhopadhyay	Applications Administrator	Information Technologies	Bangalore
+Matthew Mulhern	Global Sales Operations Manager	Sales	Home Office - Texas
+Kantesh Mundaragi	Sr. MTS	PCS	Bangalore
+Kristi Murray	Sr Product Marketing Manager	PCS	Atlanta
+Veronica MW	Program Manager	Marketing	Palo Alto
+Sheela N V	Strategic Sourcing Manager	Finance & Ops	Bangalore
+Aravindh Nagarajan	Member of Technical Staff	PCS	Bellandur Village
+Andrea Nagel	Manager Labs	Corporate	London
+Adarsh Nair	Senior Technical Program Manager	CTO	Palo Alto
+Nikhil Nair	Member of Technical Staff 2	PCS	Palo Alto
+Chris Newman	Manager, Security Engineering	PCS	Palo Alto
+Glenn Newman	Diversity and Inclusion Program Manager	HR	Atlanta
+Charline Nguyen	Technical Support Engineer	Global Services	Broomfield
+Bongiwe Nhlabathi	Sales and Marketing Support SSA	EMEA Field Sales	Johannesburg
+Rachel Nimmo	Senior Recruiter	HR	Home Office - Tennessee
+Reshma Nizami	EUC Customer Success Manager	Sales	Home Office - California
+Sylvain Noirot	Senior Solution Engineer	EMEA Field Sales	Paris La Defense Cedex
+Alec Nordan	HR Business Insights Consultant	HR	Austin
+Jessie Norden	Product Manager	Corporate	San Francisco
+Veronique Nurit	EMEA Senior Director Partner Services and Multi-Cloud Partners	EMEA Field Sales	Paris La Defense Cedex
+Alexandra O Sullivan	Pricing Analyst	Finance & Ops	Ballincollig
+Jacqueline O'Brien	Duty Manager	Global Services	Broomfield
+Evelyn O'Leary	Global TA Program Coordinator	HR	Ballincollig
+Claire O'Regan	Communication Projects Coordinator	Global Services	Ballincollig
+Mary O'Regan	Technical Support Engineer	Global Services	Ballincollig
+Jennifer O'Sullivan	Technical Support Engineer	Global Services	Ballincollig
+Leona O'Sullivan	Social Media Manager	HR	Ballincollig
+Paul Ocampo	Manager, Deal Management	Finance & Ops	Heredia
+Lori Olmstead	Executive Coordinator	Global Services	Broomfield
+Alexi Ortega	Technical Account Manager	Customer HQ	Broomfield
+Keriann Ouye	Sr. Program Manager	Strategy & Corp Dev	Palo Alto
+Alecia Owens	Cloud Customer Success Manager	Cloud Sales	Atlanta
+Dave Oz	Web Developer	CTO	Palo Alto
+James Ozamiz	Talent Acquisition Partner	HR	Home Office - Georgia
+Sumedha Padhye	Senior Manager, Order Management	Finance & Ops	Pune
+Monalisa Pahadsingh	IT Software QA Engineer	Information Technologies	Bangalore
+Lailing Pak	Senior Analyst, Order Management	Finance & Ops	Ballincollig
+Satory Palmer	Senior Manager, Real Estate & Workplace - Palo Alto Planning Operations	Finance & Ops	Palo Alto
+Trupti Pandey	Member of Technical Staff	PCS	Bangalore
+Alexis N Parra	Internal Communications Editor	Marketing	Palo Alto
+Ron Passerini	Staff Engineer	PCS	Boston
+Achint Patel	Senior Analyst 1 - FP&A	Finance & Ops	Bangalore
+Jahnavi Patel	Product Manager	PCS	Bangalore
+Kishan Patel	Member of Technical Staff	PCS	Atlanta
+Pradatta Pattanaik	Sr. QA Engineer	Information Technologies	Palo Alto
+Travis Patterson	Sr. Member Technical Staff	Corporate	Denver
+Megan Payne	Senior EUC Cloud Security Strategist	PCS	Atlanta
+Price Peacock	Global Employment Brand Manager	HR	Home Office - Tennessee
+Haley Pelletier	Member of Technical Staff	PCS	Boston
+Austin Perry	EUC Sales Specialist	EUC Total	Atlanta
+Darren Pham	Group Manager, Planning & Analytics	PCS	Palo Alto
+Shruti Phanse	Sr. Product Manager	PCS	Atlanta
+Carlos Phoenix	Senior Compliance and Cyber Risk Solutions Strategist, Global	PCS	Home Office - California
+Nicole Piotrowski	HR Management Partner	HR	Sydney
+Meghan Porter	Global Sales Operations, VMC RTM Operations	Cloud Sales	Atlanta
+Yadin Porter de Leon	Senior Manager, Global Executive Marketing Content Strategist	Marketing	Palo Alto
+Ashton Potter	Academy Inside Sales Representative	Customer HQ	Austin
+Sonia Prabhu	Manager, R&D	PCS	Palo Alto
+Asim Praveen	Staff Engineer 1	Corporate	Remote Office - India
+John Premus	Senior Director, Strategy and Ops	Global Services	Home Office - Connecticut
+Jey Price	Business Operations Program Manager	Marketing	Austin
+Kyley Protis	Project Manager	AMER Field Sales	Atlanta
+Nailah Pruitt	HR Source Employee Advisor	Corporate	Austin
+Harjeet Pruthi	Senior Diversity and Inclusion Program Manager	HR	Bangalore
+Celine Pypaert	Associate Solution Engineer	CB Opex	Reading
+Aaron Quackenbush	Consultant	CB COGS	Home Office - South Carolina
+Louise Radoor	Manager of Communications EMEA	Corporate	Staines
+Sanjay Railkar	Sr Business Systems Analyst	Information Technologies	Palo Alto
+Hamsa Rajaraman	Workplace Manager - Business Data Reporting	Finance & Ops	Palo Alto
+Shruthi Rajmohan	R&D India Communication Manager	Finance & Ops	Bangalore
+Aamer Rakla	Product Manager, Intern	PCS	Home Office - Texas
+Ravi Ramaseshan	BTA Program Manager	PCS	Palo Alto
+Jen Rambur	Senior Portfolio Manager, HRPO	HR	Palo Alto
+Marcie Ramirez	Applications Administrator	CB Opex	Home Office - Colorado
+Warner Ramirez	HR Source Employee Advisor	HR	Heredia
+Emerson Rana	IT Sox Assurance Manager	Information Technologies	Palo Alto
+Mohanbabu Rao	Staff Engineer	PCS	Palo Alto
+Sumathindra Rao	Manager, Enterprise Territory Management	Sales	Bangalore
+Amulya Ravikumar	Colleague Support Engineer	Information Technologies	Bangalore
+Isabelle Raxter	Associate Project Manager	Customer HQ	Atlanta
+Taree Reardon	Threat Analyst	CB COGS	Boulder
+Annalisa Recio	Manager, User Experience	PCS	Atlanta
+Mohan Reddy	Senior QA Manager IT Apps	Information Technologies	Palo Alto
+Annette Reed	Compliance Program Manager	Information Technologies	Atlanta
+Salonee Rege	Member of Technical Staff	PCS	Palo Alto
+Lisette Reijers	Localization Team Lead	Marketing	Atlanta
+Julia Relova	Academy Assistant Coordinator	Customer HQ	Austin
+Alicia Restrepo	Senior EUC Content Strategist	PCS	Home Office - Florida
+Sam Rich	Sr. Member of Technical Staff	PCS	Atlanta
+Christine Riley	EUC Sales Specialist, Federal	EUC Total	Home Office - Maryland
+Aida Rivas	Senior Open Source Program Manager	CTO	Palo Alto
+Tim Robinson	Sr.Manager, Finance Systems and Solutions	Finance & Ops	Staines
+Lisa Roderick	Staff Engineer	PCS	Home Office - Massachusetts
+Tyler Rodgers	Member of Technical Staff	PCS	Palo Alto
+Roshan Rodrigues	Director, Engineering	PCS	Palo Alto
+Josue Rodriguez	HR Source Employee Advisor	HR	Heredia
+Mario Rodriguez	Data Analyst	Sales	Heredia
+Sergio Rodriguez	Bookkeeper	Finance & Ops	Palo Alto
+Stephanie Romero	Senior Analyst, External Reporting	Finance & Ops	Palo Alto
+Samantha Rose	Employee Communications Specialist	Marketing	Palo Alto
+Michael Ross	Solution Engineer	AMER Field Sales	Home Office - Massachusetts
+Melissa Rothe	Team Lead - SaaS Billing Operations	Finance & Ops	Palo Alto
+Reina Routier	Technical Support Engineer	Global Services	Atlanta
+Pallabi Routray	Technical AV Operations Specialist	Information Technologies	Bangalore
+Jennifer Rowald	HR Management Partner	HR	Austin
+Zane Rowe	CFO	Finance & Ops	Palo Alto
+Krzysztof Rozanka	Enterprise Account Executive	EMEA Field Sales	Warsaw
+Maria Rueda Pere	M&A Ops Integration Manager II	Finance & Ops	Ballincollig
+Carmen Ruiz	Admin and Project Coordinator	HR	Palo Alto
+Abid Saeed	Staff Engineer	PCS	Palo Alto
+Maitreyee Saikia	Member of Technical Staff	PCS	Palo Alto
+Liz Saiz	Senior Executive Assistant to GM & VP, SDDC Suite Business Unit	PCS	Palo Alto
+Melissa Salazar	Project Manager GSAT	Partner Sales Acceleration Team	Heredia
+Maria Sancho	Senior Technical Support Engineer	Global Services	Ballincollig
+Dani Sandoval	Designer 2	Corporate	Cambridge
+Avanti Sane	Product Line Manager	PCS	Palo Alto
+Shizuka Sato	Sales Specialist, EUC	EUC Total	Tokyo
+Marisa Schafer	Head of Citizen Philanthropy	HR	Home Office - Missouri
+Adam Schepis	Staff Engineer 2	PCS	Boston
+Mike Schimmel	Senior Information Security Engineer	Information Technologies	Atlanta
+Lauren Schlangen	Global People Development Lead	HR	Palo Alto
+Paige Schmidt (Clapper)	Senior Product Manager	CB Opex	Palo Alto
+Teresa Schnorr	Recruiter	HR	Boulder
+Marlena Schoppert	Intern -Member of Technical Staff- Project Dimension- VMC Edge Computing:	PCS	Home Office - Virginia
+Mimi Schulz	Director, Global On-Site Events	Finance & Ops	Palo Alto
+Fred Schwark	Field Commerce Director, Globals	Global Accounts	New York
+Alexandra Sedevie	Technical Support Engineer	Global Services	Atlanta
+Alison Selover	Revenue Manager	Finance & Ops	Austin
+Vince Shah	Director of Programs and Operations - VMC on AWS	Global Services	Atlanta
+Arti Sharma	Diversity and Inclusion Program Manager	HR	Palo Alto
+Reena Sharma	Manager, Technical Support	Global Services	Bangalore
+Kevin Shaw	EUC Cloud Security Strategist	PCS	Atlanta
+Zach Shepherd	Staff Engineer II	PCS	San Francisco
+Jenn Sherrill	Inside Sales Representative	AMER Field Sales	Austin
+Akash Shetty	Senior Director, Colleague Support	Information Technologies	Bangalore
+Rupesh Shimkhada	Product Line Manager - Cross-Cutting Technologies (Cloud Management)	PCS	Palo Alto
+Pratibha Shinde	Sr. MTS	CB Opex	Palo Alto
+Shweta Shridhar	Senior Consultant, PSRD	Global Services	Atlanta
+Julia Shuieh	Software Engineer, Intern- EUC	PCS	Home Office - California
+Anil Shukla	Program Manager - IT Technical Education	Information Technologies	Bangalore
+Sameer Shukla	Program Manager, AMER PMO	Sales	Home Office - Virginia
+Sarah Shvil	Senior Operations Manager	CTO	Palo Alto
+Jake Sidell	Partner Business Specialist	EUC Total	Home Office - Texas
+Cami Silva	Technical Account Manager	Customer HQ	Austin
+Erin Simone	Marketing Manager, Executive Marketing	Marketing	Palo Alto
+Karishma Singh	Global People Development Project Manager	HR	Palo Alto
+Kiran Singh	R&D Manager	PCS	Palo Alto
+Seema Singhal	Senior Director, Data Analytics	Finance & Ops	Palo Alto
+Alka Sippy	Information Systems Senior Project Manager	Information Technologies	Palo Alto
+Sahana Sirish	TA Coordinator	HR	Home Office - Canada
+Glenn Skaggs	Cloud Services Engineer Level 2	Global Services	Broomfield
+Adam Slater	Manager, SaaS GTM Content Strategy	Sales	Atlanta
+Stephen Sledzieski	Staff Engineer - NSX	PCS	Palo Alto
+Gareth Smith	Staff Engineer	Corporate	London
+Jill Smith	Manager, Global Travel	Finance & Ops	Palo Alto
+John Smith	Physical Security SOC Program Manager	Information Technologies	Palo Alto
+Parker Smith	Associate Consultant	Customer HQ	Reston
+Sheri Smith	Director, Global Field Onboarding	Sales	Palo Alto
+Brad Snurka	Cloud Services Engineer	Global Services	Broomfield
+Nancy Sohn	Senior Revenue Analyst	Finance & Ops	Austin
+Ajay Solleti	Eloqua Developer	Information Technologies	Remote Office - India
+Jyothsna Somanna	Member of Technical Staff	PCS	Bangalore
+Rajesh Somasundaran	Director, Performance Engineering	PCS	Palo Alto
+Annie Song	Academy Solutions Engineer	Customer HQ	Austin
+Daman Sood	Staff Technical Program Manager	PCS	Palo Alto
+Ambika Soorappaiah	Sr Mgr - FE Business Insights	PCS	Atlanta
+Irma Soriano	Sr. Executive Assistant	CTO	Palo Alto
+Melanie Spatola	Senior Technical Support Manager	Global Services	Broomfield
+Angelica Speranca Ce	Commercial Account Manager	AMER Field Sales	Austin
+Tracie Stamm	Product Line Marketing Manager, Cloud Solutions	Marketing	Home Office - Ohio
+Paul Stephenson III	Sr. Staff Cloud Architect	Cloud Sales	Remote Office - Texas
+Franz Stoneking	Sr. Business Analyst Intern	Finance & Ops	Home Office - Pennsylvania
+Paul Stuart	Senior Network Virtualization Engineer	Global Services	Broomfield
+Lorie Stull	Solution Engineer	CB Opex	Home Office - Massachusetts
+Cameron Sturdevant	Senior Product Line Marketing Manager	PCS	Palo Alto
+Julie Suarez	Project Manager, HR Services	HR	Heredia
+Patrick Sudlow	Event Planner	Finance & Ops	Remote Office - California
+Brian Sullivan	Senior Director, WW Sales Acceleration Programs	Dell Execution Team	Austin
+Chris Sullivan	Senior Manager, Learning Programs Team	Sales	Home Office - Oregon
+Cherry Summers	Staff Engineer	PCS	Home Office - Washington
+Rae Sun	Member of Technical Staff 3	PCS	Shanghai
+Betsy Sutter	Corporate SVP & Chief People Officer	HR	Palo Alto
+Aaron Swartz	Senior Business Process Architect	Finance & Ops	Home Office - Texas
+Ross Swerling	Site Reliability Engineer	CB Opex	Waltham
+Yoho Takase	Account Manager, Product Specialist, Professional 3	SDDC Sales	Tokyo
+LeeAnn Tam	VCPP Sr Business Analyst, Team Lead	Finance & Ops	Palo Alto
+Esther Tamang	Manager, BTA ACT	Finance & Ops	Bangalore
+Alexa Tambellini	Diversity and Inclusion Program Manager	HR	Austin
+Jessica Tang	Intern, IT Application Developer	Information Technologies	Home Office - California
+Kei Taniguchi	Strategic Planning - Management	Cloud Sales	Bellevue
+Chetna Tanwani	Business Process Architect	Finance & Ops	Palo Alto
+Faye Tawbi	Senior Technical Program Manager	PCS	Palo Alto
+Claire Taylor	Senior R&D Manager	PCS	Palo Alto
+Ian Taylor	Specialist Solution Engineers Management - Management	Cloud Sales	Home Office - New Jersey
+Jamie Temple	Director, Office of EUC Business Operations and Planning	PCS	Atlanta
+Kevin Ten Eyck	EUC Customer Success Manager	Sales	Farmers Branch
+Lila Tene	Staff Engineer-I	PCS	Palo Alto
+David Tennenhouse	SVP, Chief Research Officer	CTO	Palo Alto
+Tamiko Terada	Member of Technical Staff	PCS	Bellevue
+Michael Thacker	Director, Corporate Public Relations	Marketing	Home Office - Oregon
+Kaitlyn Thibeault	HR Management Partner	HR	Waltham
+Rob Thomas	Manager, Support Account Management	Global Services	Broomfield
+Chuck Thompson	Senior Manager, HR Services	HR	Austin
+Jaime Thompson	Staff Consulting Architect	Sales	Home Office - Alabama
+Scott Tilney	Member of Technical Staff, Emerging Technologies	Information Technologies	Palo Alto
+Anca Titu	Senior Analyst - Deal Management	Finance & Ops	Ballincollig
+Pankaj Tiwari	Member of Technical Staff 3	PCS	Bangalore
+Darlene Tran	Global Government Relations - Political and Operational Lead	Legal	Palo Alto
+Lisa Tran	Manager, CPE Strategic Program Office	Information Technologies	Palo Alto
+Jodi Travis	Program Manager, AMER PMO	Sales	Home Office - North Carolina
+Beth Treacy	Talent Acquisition Manager	HR	Sydney
+Jill Trotter	Talent Acquisition Manager	HR	Home Office - Arizona
+Anne Trueblood	Member Technical Staff	PCS	Goleta
+Susie Tse	Sr. Manager, Global Executive Briefing Program	Marketing	Palo Alto
+Natasha Tuck	Director, Sustainability and ESG	CTO	Palo Alto
+Jef Tyler	Director of Design and Video	Marketing	Palo Alto
+Disha Udharamani	Member of Technical Staff	PCS	Palo Alto
+Elisa Umana	Instructional Designer & Project Manager	Sales	Heredia
+Abhishek Upadhyay	Colleague Support Engineer	Information Technologies	Bangalore
+Roberto Urena	Content Developer III	Finance & Ops	Heredia
+Pallavi V	Colleague Experience and Technology Service Delivery Lead	Information Technologies	Bangalore
+Manuel Valdez	Plus One	Finance & Ops	Palo Alto
+Caterina Valentini	Associate Consultant	Customer HQ	Atlanta
+Andrew Van Vliet	Workplace Manager - Planning Systems	Finance & Ops	Palo Alto
+Scott Van Woudenberg	Senior Product Line Manager	PCS	Bellevue
+Audrey Van Zee	Manager, Global Relationship & Scale Marketing	Marketing	Palo Alto
+Saranya Varanasi	Business Analyst, Digital Platforms	Customer HQ	Atlanta
+Maria del Mar Vargas	Analyst I - SaaS Billing Operations	PCS	Heredia
+Vicki Vaughn	Director of Marketing, Global Customer Support & Care	Global Services	Palo Alto
+Sophiya Richard Vednesan	Administrative Assistant	PCS	Pune
+Lode Vermeiren	Senior Solution Engineer - Cloud Provider	Cloud Sales	Machelen
+Henry Villar	Director- AMER Technical Enablement	Sales	Palo Alto
+Sandy Visoso	Content Architect	PCS	Palo Alto
+Carmen Visser	Senior Compensation Consultant	HR	Palo Alto
+Shama Viswanathan	Partner Product Manager	PCS	Palo Alto
+Maraike Vitomarco	Partner Sales Associate	EMEA Field Sales	Barcelona
+Lorelei Voorsanger	Global Sales Operations Optimization Strategy Lead	Sales	Remote Office - California
+Amy Waddell	Revenue Supervisor	Finance & Ops	Ballincollig
+Amy Wagman	Sr Manager, Customer and Partner Relationship Programs	Marketing	Palo Alto
+Aisling Walsh	Technical Enablement Consultant	Sales	Ballincollig
+Jo Walski	Senior Sales Operations Manager, DESAT	Dell Execution Team	Home Office - Texas
+Tina Walsworth	Senior Technical Marketing Architect	PCS	Palo Alto
+Denise Walter	Vice President, US Private Sector Sales - West	AMER Field Sales	Home Office - Washington
+Yu Wang	Member of Technical Staff, Core Graphics Team	PCS	Palo Alto
+Carole Ward	Americas Physical Security Operations Manager	Information Technologies	Austin
+Kathleen Warmoth	Sr. Manager – Enterprise Data Governance	Finance & Ops	Palo Alto
+Peter Waterstreet	International Tax Director	Finance & Ops	Palo Alto
+Phil Weiss	Senior Director, SDDC Architecture & Design	PCS	Home Office - New Zealand
+Amber Welch	EUC FedRAMP Program Manger	PCS	Atlanta
+Kelin West	Associate Consultant	Customer HQ	Reston
+Glenn Weyhausen	Director, Service Provider Program Strategy	Partner Sales Acceleration Team	Palo Alto
+Leslie Whisler	TA Manager	HR	Home Office - Texas
+Jarred White	Sr. Manager, R&D Product Security Architecture	PCS	Atlanta
+Russell Wickless	Security Engineer	PCS	Atlanta
+Matthew Wierson	Manager, AMER EUC Delivery	Sales	Atlanta
+Arika Wilkerson	Strategic Sourcing Specialist - Real Estate and Workplace	Finance & Ops	Broomfield
+Kate Wilkinson	Sr. Program Manager - OCTO	CTO	Home Office - Texas
+Gabrielle Williams	Marketing Programs Specialist	CB Opex	Waltham
+Shannon Williams	EUC Sales Specialist	EUC Total	Atlanta
+Sara Willson-Thacker	Sr. Manager, EUC Technical Proposals	PCS	Atlanta
+Jane Wilson	Senior Manager, Information Experience	PCS	Atlanta
+Jennifer Wilson	Sr. Manager, GTM M&A Integration	Corporate	Palo Alto
+Shanis Windland	Vice President, Diversity and Inclusion	HR	Bellevue
+Laura Wingler	Sr. Director Global Support Services	Global Services	Atlanta
+Brendan Winter	Member Technical Staff 3	Corporate	Seattle
+Yulia Witek	Executive Assistant	HR	Palo Alto
+Travis Wood	Principal Architect, PS Solutions	Sales	Staines
+Alex Woodhouse	Sr. Instructional Designer	HR	Home Office - Florida
+Sasha Wright-Neville	Partner Development Funds Senior Manager	Partner Sales Acceleration Team	Bellevue
+Andrew Wroblewski	Director - Customer Success	EUC Total	Atlanta
+Hengfu Wu	Member of Technical Staff	PCS	Atlanta
+Barbara Wuchte	Manager, Technical Support	CB COGS	Home Office - Illinois
+Sophia Xu	Physical Security Manager, Greater China	Information Technologies	BEIJING
+Yiqi Xu	Sr. MTS	PCS	Palo Alto
+Ashuka Xue	Member Technical Staff 2	Corporate	Palo Alto
+Andy Yan	Member of Technical Staff - Professional	PCS	Palo Alto
+Tiffany Yang	Member of Technical Staff - Propel	PCS	Palo Alto
+Calvin Yao	Director, Business Transformation and Automation, PMO	Finance & Ops	Palo Alto
+Delia Yeh	Communication Manager	Marketing	Taipei
+Rebecca Yen	WW Sales Operations Process Manager	Cloud Sales	Austin
+Justin Yeo	Personal Trainer	Finance & Ops	Palo Alto
+Karthik Yetukuri	Manager, Security Intelligence and Response	Information Technologies	Farmers Branch
+Kara Yimoyines	Sr. Member of Technical Staff	PCS	Burlington
+Vidya YM	Global Programs Manager	Finance & Ops	Bangalore
+Rebecca Yo	Sr. MTS	PCS	Austin
+Kana Yokota	Senior Business Analyst	Finance & Ops	Palo Alto
+Hua Yu	Senior Member of Technical Staff	PCS	Palo Alto
+Jinlu Yu	DSE - vSphere / Staff Engineer	PCS	Home Office - California
+YiQun Yun	Sr. Manager, Engineering	PCS	BEIJING
+Satish Zanjurne	Senior Consultant, Network and Security	Sales	Palo Alto
+Joe Zhao	Sr. Member of Technical Staff	PCS	BEIJING
+Leana Zhao	Marketing Operations Manager	PCS	Palo Alto
+Ming Hua Zhou	Staff I Engineer	PCS	Bellevue
+Siying Zhou	Associate Commercial Solution Engineer	APAC Field Sales	Singapore
+Natasha Zike	Senior Manager, DSAT Sales Activation	Dell Execution Team	Austin
+Joe Zollo	Sr. Site Reliability Engineer	PCS	Atlanta
+Liping Zong	Staff Engineer I	PCS	Palo Alto
+Abby Zumstein	Program Manager, Cloud Security and Compliance Strategy	PCS	Atlanta
+Ben Zwerling	Sr. Director, Strategic Sourcing	Finance & Ops	Broomfield
