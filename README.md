@@ -18,22 +18,11 @@ Behind the scenes, we will provide recommendations for HR and team managers on h
 [View Project Submission Here](https://submissions.eng.vmware.com/borathon-eda-intern-fy21q2/submissions/23652)
 
 
-## Table of Contents
-
-* [Authors](#authors)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Built With](#built-with)
-* [Resources](#resources)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
-
 ## Authors
 
 * **[Jason Au](https://github.com/jau8)** - *Full-stack development*
 * **[Udisha Bhattacharyya](https://github.com/udishab)** - *Data Analyst, Database Management*
-* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack Development* - [Diego-Hdz]
+* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack Development*
 * **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack Development, Web scraping*
 * **[Joshua Paredes](https://github.com/jparedes30)** - *Data Analyst*
 
