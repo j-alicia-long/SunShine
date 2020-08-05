@@ -6,8 +6,6 @@ const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 dotenv.config();
 
-console.log(`Your port is ${process.env.PORT}`); // 8626
-
 app.use(express.json());
 app.use(function (req, res, next) {
   res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
