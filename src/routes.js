@@ -19,12 +19,20 @@ import Dashboard from "views/Dashboard.jsx";
 import UserProfile from "views/UserProfile.jsx";
 import TableList from "views/TableList.jsx";
 import ToDos from "views/ToDos.jsx";
+import Demographics from "views/Demographics";
 
 const dashboardRoutes = [{
     path: "/dashboard",
     name: "Dashboard",
     icon: "pe-7s-graph",
     component: Dashboard,
+    layout: "/admin"
+  },
+  {
+    path: "/demographics",
+    name: "Demographics",
+    icon: "pe-7s-graph",
+    component: Demographics,
     layout: "/admin"
   },
   {

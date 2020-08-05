@@ -17,7 +17,8 @@
 */
 import React, { Component } from "react";
 import ChartistGraph from "react-chartist";
-import BasicEmbed from "components/TableauEmbed/BasicEmbed.js";
+
+import GlobalMap from "components/TableauEmbed/GlobalMap.js";
 
 import { Grid, Row, Col } from "react-bootstrap";
 
@@ -36,6 +37,7 @@ import {
   responsiveBar,
   legendBar
 } from "variables/Variables.jsx";
+import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
 
 class Dashboard extends Component {
   createLegend(json) {
@@ -91,27 +93,11 @@ class Dashboard extends Component {
             </Col>
           </Row>
           <Row>
-            <Col md={5}>
-              <BasicEmbed/>
+            <Col lg={6} md={6}>
+              <PODMemberCounts/>
             </Col>
-            <Col md={4}>
-              <Card
-                statsIcon="fa fa-clock-o"
-                title="Email Statistics"
-                category="Last Campaign Performance"
-                stats="Campaign sent 2 days ago"
-                content={
-                  <div
-                    id="chartPreferences"
-                    className="ct-chart ct-perfect-fourth"
-                  >
-                    <ChartistGraph data={dataPie} type="Pie" />
-                  </div>
-                }
-                legend={
-                  <div className="legend">{this.createLegend(legendPie)}</div>
-                }
-              />
+            <Col lg={6} md={6}>
+              <GlobalMap/>
             </Col>
           </Row>
 
