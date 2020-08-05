@@ -19,13 +19,12 @@ class Demographics extends Component {
         <div className="content">
           <Grid fluid>
             <Row>
-              <Col md={5}>
+              <Col lg={6}>
                 <PODMemberCounts/>
               </Col>
-
-              <Col md={5}>
-                  <PODMemberCounts/>
-            </Col>
+              <Col lg={6}>
+                <PODMemberCounts/>
+              </Col>
             </Row>
           </Grid>
         </div>
