@@ -87,25 +87,6 @@ class Dashboard extends Component {
             </Col>
           </Row>
 
-          <Row>
-
-
-            <Col md={6}>
-              <Card
-                title="Tasks"
-                category="Backend development"
-                stats="Updated 3 minutes ago"
-                statsIcon="fa fa-history"
-                content={
-                  <div className="table-full-width">
-                    <table className="table">
-                      <Tasks />
-                    </table>
-                  </div>
-                }
-              />
-            </Col>
-          </Row>
         </Grid>
       </div>
     );

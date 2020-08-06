@@ -35,8 +35,8 @@ function PODMemberCounts() {
         id="chartActivity"
         title="POD Member Counts"
         category="Member counts of 7 PODs across VMware"
-        stats={<a href="#" onClick={handleClick}>View Detail</a>}
-        statsIcon="pe-7s-note"
+        //stats={<a href="#" onClick={handleClick}>View Detail</a>}
+        //statsIcon="pe-7s-note"
         content={<div id="container" ref={ref}></div>}
     />
   );

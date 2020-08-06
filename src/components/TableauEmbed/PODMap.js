@@ -36,8 +36,8 @@ function PODMap() {
       id="chartActivity"
       title="VMware POD Map"
       category="Global POD Map with number of POD members in every country around the world"
-      stats={<a href="#" onClick={handleClick}>View Detail</a>}
-      statsIcon="pe-7s-note"
+      //stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      //statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );

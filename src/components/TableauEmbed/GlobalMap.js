@@ -35,10 +35,10 @@ function GlobalMap() {
   return (
     <Card
       id="chartActivity"
-      title="VMware Global Map"
-      category="Global Map with number of in every country around the world"
-      stats={<a href="#" onClick={handleClick}>View Detail </a> }
-      statsIcon="pe-7s-note"
+      title="Global Representation - Employees and PODs"
+      category="Global Map with number employees and POD member counts in every country around the world"
+      //stats={<a href="#" onClick={handleClick}>View Detail </a> }
+      //statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );

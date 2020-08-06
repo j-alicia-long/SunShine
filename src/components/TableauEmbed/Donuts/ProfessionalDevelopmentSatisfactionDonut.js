@@ -34,7 +34,8 @@ function ProfessionalDevelopmentSatisfactionDonut() {
     <Card
       id="chartActivity"
       title="Professional Development Satisfaction"
-      content={<div id="container" ref={ref}>16.5% Positive Sentiment</div>}
+      content={<div id="container" ref={ref}></div>}
+      stats="The goal is 6.5 on a 1-7 scale"
     />
   );
   

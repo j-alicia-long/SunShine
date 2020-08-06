@@ -34,10 +34,10 @@ function GenderBreakdowns() {
   return (
     <Card
       id="chartActivity"
-      title="Gender Makeup of VMware Employees"
+      title="Gender Makeup of Employees"
       category="Gender makeup of VMware employees relative to US population and other tech companies"
-      stats={<a href="#" onClick={handleClick}>View Detail</a>}
-      statsIcon="pe-7s-note"
+      //stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      //statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );

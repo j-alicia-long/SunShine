@@ -36,8 +36,8 @@ function PODInvolmentByManagerialLevel() {
       id="chartActivity"
       title="POD Involvement by Managerial Level"
       category="POD membership counts by levels from CEO"
-      stats={<a href="#" onClick={handleClick}>View Detail</a>}
-      statsIcon="pe-7s-note"
+      //stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      //statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );

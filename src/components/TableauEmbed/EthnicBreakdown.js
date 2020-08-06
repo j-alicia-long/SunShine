@@ -34,10 +34,8 @@ function GenderBreakdowns() {
   return (
     <Card
       id="chartActivity"
-      title="Ethnic Makeup of VMware Employees"
+      title="Ethnic Makeup of Employees"
       category="Ethnic makeup of VMware employees relative to US population and other tech companies"
-      stats={<a href="#" onClick={handleClick}>View Detail</a>}
-      statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );

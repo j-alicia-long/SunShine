@@ -35,6 +35,7 @@ function OverallEnjoymentDonut() {
       id="chartActivity"
       title="Overall Enjoyment"
       content={<div id="container" ref={ref}></div>}
+      stats="The goal is 6.5 on a 1-7 scale"
     />
   );
   

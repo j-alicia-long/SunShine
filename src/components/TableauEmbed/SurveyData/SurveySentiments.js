@@ -36,8 +36,8 @@ function SurveySentiments() {
       id="chartActivity"
       title="Survey Sentiments"
       category="Average positive, neutral and negative sentiments by survey"
-      stats={<a href="#" onClick={handleClick}>View Detail</a>}
-      statsIcon="pe-7s-note"
+      //stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      //statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );

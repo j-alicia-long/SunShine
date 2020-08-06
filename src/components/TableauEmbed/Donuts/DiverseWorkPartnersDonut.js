@@ -36,6 +36,7 @@ function DiverseWorkPartnersDonut() {
       id="chartActivity"
       title="Diverse Work Partners Satisfaction"
       content={<div id="container" ref={ref}></div>}
+      stats="The goal is 6.5 on a 1-7 scale"
     />
   );
   

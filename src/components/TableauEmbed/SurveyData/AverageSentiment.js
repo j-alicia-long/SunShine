@@ -36,8 +36,8 @@ function AverageSentiment() {
       id="chartActivity"
       title="Average Sentiment"
       category="Average sentiment from survey"
-      stats={<a href="#" onClick={handleClick}>View Detail</a>}
-      statsIcon="pe-7s-note"
+      //stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      //statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );

@@ -35,8 +35,8 @@ function PODInvolvementbyBU() {
         id="chartActivity"
         title="POD Involment by BU"
         category="POD membership counts across different business units at VMware"
-        stats={<a href="#" onClick={handleClick}>View Detail</a>}
-        statsIcon="pe-7s-note"
+        //stats={<a href="#" onClick={handleClick}>View Detail</a>}
+        //statsIcon="pe-7s-note"
         content={<div id="container" ref={ref}></div>}
     />
   );

@@ -29,6 +29,9 @@ class Demographics extends Component {
         <div className="content">
           <Grid fluid>
           <Row>
+            <p>Note: data below is not actual employee data and only for the purpose of a proof of concept</p>
+          </Row>
+          <Row>
             <Col lg={6} sm={6}>
               <StatsCard
                 // Name of these icons can be found here: https://themes-pixeden.com/font-demos/7-stroke/
