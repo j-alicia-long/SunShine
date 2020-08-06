@@ -1,1 +1,7 @@
+Asian@VMware 29712
+Black@VMware 17087
+Disability@VMware 26152
+Latinos@VMware 22730
+PRIDE@VMware 15067
+Veterans@VMware 22959
 Women@VMware 19247
