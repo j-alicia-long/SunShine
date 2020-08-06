@@ -17,62 +17,62 @@ app.use(function (req, res, next) {
   next();
 });
 
+// MongoDB client for temporary user auth
 const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
-// client.connect(err => {
-//   const collection = client.db("database").collection("sample_employees");
-//   console.log(collection)
-//   client.close();
-// });
+// Get all users
+app.get("/users", (req, res) => {
 
-// MongoClient.connect(uri, function(err, db) {
-//     if (err) throw err;
-//     var dbo = db.db("database");
-//     dbo.collection("sample_employees").findOne({
-//         emp_id: req.params.id
-//     },
-//     function(err, result) {
-//         console.log(result)
-//         if (err) throw err;
-//         res.json(result);
-//         db.close();
-//     });
-// })
+  client.connect(err => {
+    if (err) throw err;
+    const db = client.db('database');
+    var query = {};
+    db.collection("sample_employees").find(query).toArray(function(err, result) {
+      if (err) throw err;
+      res.status(200).json(result);
+      client.close();
+    });
+  });
 
+});
+
+// Get one user by ID
 app.get("/users/:id", (req, res) => {
 
   client.connect(err => {
-    // assert.equal(null, err);
     const db = client.db('database');
 
-    //Step 1: declare promise
-    var myPromise = () => {
+    // Declare promise
+    var myPromise = (id) => {
       return new Promise((resolve, reject) => {
         db
         .collection('sample_employees')
-        .find({emp_id: req.params.id})
-        .limit(1)
+        .find() // Will not return any query results unless I hardcode params
         .toArray(function(err, data) {
-          err
-          ? reject(err)
-          : resolve(data[0]);
+          // Kinda hacky js search for user but it works
+          err ? reject(err) : resolve(data.find(el => el.emp_id == id));
         });
       });
     };
 
-    //Step 3: make the call
-    myPromise()
+    // Call promise
+    myPromise(req.params.id)
     .then((response) => {
+      // Create user session token
       const token = jwt.sign(
         { user: req.params.id },
         process.env.ACCESS_TOKEN_SECRET
       );
+      // Check that user was found in database
+      if (response === undefined) {
+        throw "User Not Found";
+      }
+      // Return token if found
       res.status(200).json({
         token: token,
       });
-      console.log(res);
     })
     .catch((error) => {
       console.log("error");
@@ -83,10 +83,11 @@ app.get("/users/:id", (req, res) => {
 
 });
 
-  app.get("/", (req, res) => {
-    res.send("Hello World!");
-  });
+// Dummy endpoint
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 
-  app.listen(process.env.PORT, () => {
-    console.log(`App running on port ${process.env.PORT}.`);
-  });
+app.listen(process.env.PORT, () => {
+  console.log(`App running on port ${process.env.PORT}.`);
+});
