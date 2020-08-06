@@ -21,14 +21,14 @@ app.get("/users/:id", (req, res) => {
   user_model
     .getUser(req.params.id)
     .then((response) => {
-      const token = jwt.sign({ userId: user._id }, "RANDOM_TOKEN_SECRET", {
-        expiresIn: "24h",
-      });
+      const token = jwt.sign(
+        { user: req.params.id },
+        process.env.ACCESS_TOKEN_SECRET
+      );
       res.status(200).json({
-        userId: user._id,
         token: token,
       });
-      res.status(200).send(response);
+      console.log(res);
     })
     .catch((error) => {
       console.log("error");

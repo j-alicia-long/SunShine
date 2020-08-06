@@ -12,16 +12,14 @@ const pool = new Pool({
 
 const getUser = (id) => {
   return new Promise(function (resolve, reject) {
-    pool.query(
-      "select * from member_data.employee_data where emp_id=" + id,
-      (error, results) => {
-        if (error) {
-          console.log("error");
-          reject(error);
-        }
-        resolve(results);
-      }
-    );
+    console.log(id);
+    resolve({
+      name: "John Doe",
+      region: "AMER",
+      country: "United States of America",
+      location: "USA-GA-Atlanta-Perimeter",
+      topLevelOrg: "Business",
+    });
   });
 };
 
