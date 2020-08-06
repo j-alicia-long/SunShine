@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import GlobalMap from "components/TableauEmbed/GlobalMap.js";
-import PODMap from "components/TableauEmbed/PODMap.js";
 import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
 import GenderBreakdowns from "components/TableauEmbed/GenderBreakdowns";
 import EthnicBreakdown from "components/TableauEmbed/EthnicBreakdown";
@@ -9,10 +8,7 @@ import PODInvolvementbyBU from "components/TableauEmbed/PODInvolvementbyBU";
 import PODInvolmentByManagerialLevel from "components/TableauEmbed/PODInvolmentByManagerialLevel.js";
 
 import { Grid, Row, Col } from "react-bootstrap";
-
-import { Card } from "components/Card/Card.jsx";
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
-import { Tasks } from "components/Tasks/Tasks.jsx";
 
 class Dashboard extends Component {
   createLegend(json) {

@@ -4,8 +4,7 @@ import { Card } from "components/Card/Card.jsx";
 const { tableau } = window;
 
 function GlobalMap() {
-  const url = "https://public.tableau.com/views/VMwareGlobalMap/VMwareGlobalmap";
-  const url2 = "https://public.tableau.com/views/Maps_15966971049310/Maps"
+  const url = "https://public.tableau.com/views/Maps_15966971049310/Maps"
 
   const ref = useRef(null);
 
@@ -19,7 +18,7 @@ function GlobalMap() {
 
   var viz;
   function initViz() {
-    viz = new tableau.Viz(ref.current, url2, options);
+    viz = new tableau.Viz(ref.current, url, options);
     
   }
 
