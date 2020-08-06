@@ -28,15 +28,16 @@ app.get("/users", (req, res) => {
 
   client.connect(err => {
     if (err) throw err;
-    const db = client.db('database');
+    const db = client.db("database");
     var query = {};
-    db.collection("sample_employees").find(query).toArray(function(err, result) {
-      if (err) throw err;
-      res.status(200).json(result);
-      client.close();
-    });
+    db.collection("sample_employees")
+      .find(query)
+      .toArray(function (err, result) {
+        if (err) throw err;
+        res.status(200).json(result);
+        client.close();
+      });
   });
-
 });
 
 // Get one user's info by ID
