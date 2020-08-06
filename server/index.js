@@ -27,20 +27,43 @@ const client = new MongoClient(uri, { useNewUrlParser: true });
 //   client.close();
 // });
 
+// MongoClient.connect(uri, function(err, db) {
+//     if (err) throw err;
+//     var dbo = db.db("database");
+//     dbo.collection("sample_employees").findOne({
+//         emp_id: req.params.id
+//     },
+//     function(err, result) {
+//         console.log(result)
+//         if (err) throw err;
+//         res.json(result);
+//         db.close();
+//     });
+// })
+
 app.get("/users/:id", (req, res) => {
-    MongoClient.connect(uri, function(err, db) {
-        if (err) throw err;
-        var dbo = db.db("database");
-        dbo.collection("sample_employees").findOne({
-            name: req.params.id
-        },
-        function(err, result) {
-            console.log(result)
-            if (err) throw err;
-            res.json(result);
-            db.close();
+
+  client.connect(err => {
+    // assert.equal(null, err);
+    const db = client.db('database');
+
+    //Step 1: declare promise
+    var myPromise = () => {
+      return new Promise((resolve, reject) => {
+        db
+        .collection('sample_employees')
+        .find({emp_id: req.params.id})
+        .limit(1)
+        .toArray(function(err, data) {
+          err
+          ? reject(err)
+          : resolve(data[0]);
         });
-    })
+      });
+    };
+
+    //Step 3: make the call
+    myPromise()
     .then((response) => {
       const token = jwt.sign(
         { user: req.params.id },
@@ -55,12 +78,15 @@ app.get("/users/:id", (req, res) => {
       console.log("error");
       res.status(500).send(error);
     });
+
+  });
+
 });
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+  app.get("/", (req, res) => {
+    res.send("Hello World!");
+  });
 
-app.listen(process.env.PORT, () => {
-  console.log(`App running on port ${process.env.PORT}.`);
-});
+  app.listen(process.env.PORT, () => {
+    console.log(`App running on port ${process.env.PORT}.`);
+  });
