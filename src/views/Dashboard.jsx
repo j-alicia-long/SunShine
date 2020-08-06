@@ -19,6 +19,9 @@ import React, { Component } from "react";
 import ChartistGraph from "react-chartist";
 
 import GlobalMap from "components/TableauEmbed/GlobalMap.js";
+import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
+import GenderBreakdowns from "components/TableauEmbed/GenderBreakdowns";
+import EthnicBreakdown from "components/TableauEmbed/EthnicBreakdown";
 
 import { Grid, Row, Col } from "react-bootstrap";
 
@@ -37,7 +40,7 @@ import {
   responsiveBar,
   legendBar
 } from "variables/Variables.jsx";
-import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
+
 
 class Dashboard extends Component {
   createLegend(json) {
@@ -92,12 +95,22 @@ class Dashboard extends Component {
               />
             </Col>
           </Row>
+
           <Row>
             <Col lg={6} md={6}>
               <PODMemberCounts/>
             </Col>
             <Col lg={6} md={6}>
               <GlobalMap/>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col lg={6} md={6}>
+              <EthnicBreakdown/>
+            </Col>
+            <Col lg={6} md={6}>
+              <GenderBreakdowns/>
             </Col>
           </Row>
 

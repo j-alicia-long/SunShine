@@ -3,8 +3,8 @@ import { Card } from "components/Card/Card.jsx";
 
 const { tableau } = window;
 
-function PODMemberCounts() {
-  const url = "https://public.tableau.com/views/PODMemberCounts/PODMemberCounts";
+function GenderBreakdowns() {
+  const url = "https://public.tableau.com/views/GenderBreakdown_15966678644280/GenderBreakdown";
 
   const ref = useRef(null);
 
@@ -13,6 +13,7 @@ function PODMemberCounts() {
     width: "100%",
     hideTabs: false,
     hideToolbar: false,
+    //device: "desktop",
   }
 
   var viz;
@@ -32,15 +33,15 @@ function PODMemberCounts() {
 
   return (
     <Card
-        id="chartActivity"
-        title="POD Member Counts"
-        category="Member counts of 7 PODs across VMware"
-        stats={<a href="#" onClick={handleClick}>View Detail</a>}
-        statsIcon="pe-7s-note"
-        content={<div id="container" ref={ref}></div>}
+      id="chartActivity"
+      title="Gender Breakdowns"
+      category="Global Map with number of employees in every country around the world"
+      stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      statsIcon="pe-7s-note"
+      content={<div id="container" ref={ref}></div>}
     />
   );
   
 }
 
-export default PODMemberCounts;
+export default GenderBreakdowns;

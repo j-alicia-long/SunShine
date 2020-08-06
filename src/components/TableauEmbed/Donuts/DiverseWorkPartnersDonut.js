@@ -3,16 +3,17 @@ import { Card } from "components/Card/Card.jsx";
 
 const { tableau } = window;
 
-function PODMemberCounts() {
-  const url = "https://public.tableau.com/views/PODMemberCounts/PODMemberCounts";
+function DiverseWorkPartnersDonut() {
+  const url = "https://public.tableau.com/views/DiverseWorkPartnersDonut/DiverseWorkPartnersDonut";
 
   const ref = useRef(null);
 
   var options = {
-    height: 800,
+    height: 300,
     width: "100%",
     hideTabs: false,
     hideToolbar: false,
+    //device: "desktop",
   }
 
   var viz;
@@ -32,15 +33,12 @@ function PODMemberCounts() {
 
   return (
     <Card
-        id="chartActivity"
-        title="POD Member Counts"
-        category="Member counts of 7 PODs across VMware"
-        stats={<a href="#" onClick={handleClick}>View Detail</a>}
-        statsIcon="pe-7s-note"
-        content={<div id="container" ref={ref}></div>}
+      id="chartActivity"
+      title="Diverse Work Partners Satisfaction"
+      content={<div id="container" ref={ref}></div>}
     />
   );
   
 }
 
-export default PODMemberCounts;
+export default DiverseWorkPartnersDonut;

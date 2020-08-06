@@ -1,6 +1,7 @@
 # VMaware: A D&I Hub
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/j-alicia-long/SunShine.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/j-alicia-long/SunShine.svg?maxAge=2592000)]()
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![GitHub issues open](https://img.shields.io/github/issues/j-alicia-long/SunShine.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/j-alicia-long/SunShine.svg?maxAge=2592000)]()
 
 [INSERT PRODUCT GIF]
 ## VMaware: A D&I Hub

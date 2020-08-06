@@ -29,17 +29,10 @@ const dashboardRoutes = [{
     layout: "/admin"
   },
   {
-    path: "/demographics",
-    name: "Demographics",
-    icon: "pe-7s-graph",
-    component: Demographics,
-    layout: "/admin"
-  },
-  {
     path: "/survey-data",
     name: "Survey Data",
     icon: "pe-7s-note2",
-    component: TableList,
+    component: Demographics,
     layout: "/admin"
   },
   {
