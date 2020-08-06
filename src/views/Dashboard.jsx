@@ -97,10 +97,10 @@ class Dashboard extends Component {
           </Row>
 
           <Row>
-            <Col lg={6} md={6}>
+            <Col lg={6}>
               <PODMemberCounts/>
             </Col>
-            <Col lg={6} md={6}>
+            <Col lg={6}>
               <GlobalMap/>
             </Col>
           </Row>
