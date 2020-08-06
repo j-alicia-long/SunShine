@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 
-const user_model = require("./user_model");
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 dotenv.config();
