@@ -17,9 +17,9 @@ app.use(function (req, res, next) {
   next();
 });
 
-// MongoDB client for temporary user auth
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const MongoClient = require("mongodb").MongoClient;
+const uri =
+  "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
 // Get all users
@@ -80,7 +80,6 @@ app.get("/users/:id", (req, res) => {
     });
 
   });
-
 });
 
 // Dummy endpoint

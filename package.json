@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@typeform/embed": "^0.24.3",
+    "axios": "^0.19.2",
     "bootstrap": "3.4.1",
     "chartist": "0.10.1",
     "mongodb": "^3.6.0",

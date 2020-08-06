@@ -24,11 +24,8 @@ function App(props) {
   return (
     <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
       <BrowserRouter>
-        <Route path="/login" component={Login} />
-        <PrivateRoute
-          path="/admin"
-          render={(props) => <AdminLayout {...props} />}
-        />
+        <Route exact path="/" component={Login} />
+        <PrivateRoute path="/admin" component={AdminLayout} />
       </BrowserRouter>
     </AuthContext.Provider>
   );
