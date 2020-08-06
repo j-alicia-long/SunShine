@@ -17,8 +17,9 @@ app.use(function (req, res, next) {
   next();
 });
 
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const MongoClient = require("mongodb").MongoClient;
+const uri =
+  "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
 // client.connect(err => {
@@ -28,19 +29,8 @@ const client = new MongoClient(uri, { useNewUrlParser: true });
 // });
 
 app.get("/users/:id", (req, res) => {
-    MongoClient.connect(uri, function(err, db) {
-        if (err) throw err;
-        var dbo = db.db("database");
-        dbo.collection("sample_employees").findOne({
-            name: req.params.id
-        },
-        function(err, result) {
-            console.log(result)
-            if (err) throw err;
-            res.json(result);
-            db.close();
-        });
-    })
+  user_model
+    .getUser(req.params.id)
     .then((response) => {
       const token = jwt.sign(
         { user: req.params.id },
