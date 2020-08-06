@@ -19,6 +19,7 @@ import Dashboard from "views/Dashboard.jsx";
 import UserProfile from "views/UserProfile.jsx";
 import TableList from "views/TableList.jsx";
 import ToDos from "views/ToDos.jsx";
+import Demographics from "views/Demographics";
 
 const dashboardRoutes = [{
     path: "/dashboard",
@@ -31,7 +32,7 @@ const dashboardRoutes = [{
     path: "/survey-data",
     name: "Survey Data",
     icon: "pe-7s-note2",
-    component: TableList,
+    component: Demographics,
     layout: "/admin"
   },
   {
