@@ -4,10 +4,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![GitHub issues open](https://img.shields.io/github/issues/j-alicia-long/SunShine.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/j-alicia-long/SunShine.svg?maxAge=2592000)]()
 
 [INSERT PRODUCT GIF]
-## VMaware: A D&I Hub
+## VMAware: A D&I Hub
 We would like for VMware to be at the forefront of the movement in diversifying talent across the company's workforce. To propel VMware forward in promoting Diversity & Inclusion (D&I), we are building a web application that will leverage data visualization to analyze the diversity of backgrounds & perspectives across VMware employees.
 
-This is in the form of a new D&I hub where employees can view live data on the company's progress towards its D&I goals each quarter, and provide continuous feedback to VMware management on D&I efforts. Employees can also view POD information, engage in POD events with leaders, and view member data and event attendance.
+**VMAware** is a new D&I hub where employees can view live data on the company's progress towards its D&I goals each quarter, and provide continuous feedback to VMware through sentiment analysis surveys. Users can also view D&I POD engagement statistics, including membership and event attendance.
 
 Behind the scenes, we will provide recommendations for HR and team managers on how to diversify talent across teams in VMware. We hope to inform their decisions on creating outreach and recruitment programs for under-represented minorities, and facilitating employee relocation between different teams, business units, or office locations.
 
@@ -21,10 +21,10 @@ Behind the scenes, we will provide recommendations for HR and team managers on h
 ## Authors
 
 * **[Jason Au](https://github.com/jau8)** - *Full-stack development*
-* **[Udisha Bhattacharyya](https://github.com/udishab)** - *Data Analyst, Database Management*
-* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack Development*
-* **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack Development, Web scraping*
-* **[Joshua Paredes](https://github.com/jparedes30)** - *Data Analyst*
+* **[Udisha Bhattacharyya](https://github.com/udishab)** - *Data analysis, database management*
+* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack development*
+* **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack development, web scraping*
+* **[Joshua Paredes](https://github.com/jparedes30)** - *Data analysis*
 
 
 ## Demo
@@ -41,20 +41,17 @@ Quick start options:
 
 - Clone the repo: `git clone https://github.com/j-alicia-long/SunShine.git`.
 - Install dependencies: `npm install`
-- Run the project: `npm run dev`
+- Run the project: `npm start`
 
 
 ## Built With
 
+* [ReactJS](https://reactjs.org/) - Frontend UI
+* [NodeJS & Express JS](https://expressjs.com/) - Backend server
 * [React-Bootstrap](https://react-bootstrap.github.io/), for UI components
   - [Light Bootstrap Dashboard React](https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/?ref=lbdr-readme), for base UI template
 * [PostgreSQL](https://www.postgresql.org/) - Database
-
-
-## Licensing
-
-- React UI: Copyright 2018 Creative Tim (https://www.creative-tim.com?ref=lbdr-readme)
-- Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/master/LICENSE.md)
+* [AWS](https://aws.amazon.com/products/databases/) - Web and Database Hosting
 
 
 ## Useful Links
