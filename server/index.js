@@ -17,12 +17,14 @@ app.use(function (req, res, next) {
   next();
 });
 
+// MongoDB Client Setup
 const MongoClient = require("mongodb").MongoClient;
 const uri = "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true });
 
 // Get all users
 app.get("/users", (req, res) => {
+
+  const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
   client.connect(err => {
     if (err) throw err;
@@ -37,35 +39,57 @@ app.get("/users", (req, res) => {
 
 });
 
-// Get one user by ID
+// Get one user's info by ID
 app.get("/users/:id", (req, res) => {
 
+  const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
   client.connect(err => {
+    if (err) throw err;
+    const db = client.db('database');
+    id = parseInt(req.params.id);
+
+    db.collection("sample_employees")
+      .findOne({ emp_id: id }, function(err, result) {
+        if (err) throw err;
+        res.status(200).json(result);
+        client.close();
+      });
+  });
+
+});
+
+// Get one user by ID
+app.get("/usertoken/:id", (req, res) => {
+
+  const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+  client.connect(err => {
+    if (err) throw err;
     const db = client.db('database');
 
     // Declare promise
     var myPromise = (id) => {
       return new Promise((resolve, reject) => {
-        db
-        .collection('sample_employees')
-        .find() // Will not return any query results unless I hardcode params
-        .toArray(function(err, data) {
-          // Kinda hacky js search for user but it works
-          err ? reject(err) : resolve(data.find(el => el.emp_id == id));
-        });
+
+        db.collection('sample_employees')
+          .findOne({ emp_id: id }, function(err, result) {
+            err ? reject(err) : resolve(result);
+          });
       });
     };
 
+    id = parseInt(req.params.id);
     // Call promise
-    myPromise(req.params.id)
+    myPromise(id)
     .then((response) => {
       // Create user session token
       const token = jwt.sign(
-        { user: req.params.id },
+        { user: id },
         process.env.ACCESS_TOKEN_SECRET
       );
       // Check that user was found in database
-      if (response === undefined) {
+      if (response === undefined || response === null) {
         throw "User Not Found";
       }
       // Return token if found
@@ -75,7 +99,7 @@ app.get("/users/:id", (req, res) => {
       client.close();
     })
     .catch((error) => {
-      console.log("error");
+      console.log("error", error);
       res.status(500).send(error);
     });
 
