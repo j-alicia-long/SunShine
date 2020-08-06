@@ -10,6 +10,7 @@ import {
   ControlLabel,
   FormControl,
 } from "react-bootstrap";
+import logo from "../assets/img/logo.png";
 
 import { Card } from "components/Card/Card.jsx";
 import { FormInputs } from "components/FormInputs/FormInputs.jsx";
@@ -26,7 +27,7 @@ const Login = () => {
   function postLogin(e) {
     e.preventDefault();
     axios
-      .get(`http://localhost:3001/users/1${userId}`)
+      .get(`http://localhost:3001/users/${userId}`)
       .then((result) => {
         if (result.status === 200) {
           // make the current user logged in
@@ -50,7 +51,10 @@ const Login = () => {
       <div class="container-login100">
         <div class="wrap-login100 p-t-85 p-b-20">
           <form class="login100-form validate-form" onSubmit={postLogin}>
-            <span class="login100-form-title p-b-70">Welcome</span>
+            <span class="login100-form-title p-b-70">VMaware</span>
+            <span class="login100-form-avatar">
+              <img src={logo} alt="AVATAR" />
+            </span>
 
             <div
               class="wrap-input100 validate-input m-t-85 m-b-35"
@@ -58,9 +62,12 @@ const Login = () => {
             >
               <input
                 class="input100"
-                type="text"
+                type="number"
                 name="username"
-                onChange={(e) => setUserId(e.target.value)}
+                onChange={(e) => {
+                  setIsError(false);
+                  setUserId(e.target.value);
+                }}
               />
               <span
                 class="focus-input100"
@@ -73,6 +80,9 @@ const Login = () => {
                 Login
               </button>
             </div>
+            {isError && (
+              <span>There has been an error. Please try logging in again.</span>
+            )}
           </form>
         </div>
       </div>

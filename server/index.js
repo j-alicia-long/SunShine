@@ -24,61 +24,59 @@ const client = new MongoClient(uri, { useNewUrlParser: true });
 
 // Get all users
 app.get("/users", (req, res) => {
-
-  client.connect(err => {
+  client.connect((err) => {
     if (err) throw err;
-    const db = client.db('database');
+    const db = client.db("database");
     var query = {};
-    db.collection("sample_employees").find(query).toArray(function(err, result) {
-      if (err) throw err;
-      res.status(200).json(result);
-      client.close();
-    });
+    db.collection("sample_employees")
+      .find(query)
+      .toArray(function (err, result) {
+        if (err) throw err;
+        res.status(200).json(result);
+        client.close();
+      });
   });
-
 });
 
 // Get one user by ID
 app.get("/users/:id", (req, res) => {
-
-  client.connect(err => {
-    const db = client.db('database');
+  client.connect((err) => {
+    const db = client.db("database");
 
     // Declare promise
     var myPromise = (id) => {
       return new Promise((resolve, reject) => {
-        db
-        .collection('sample_employees')
-        .find() // Will not return any query results unless I hardcode params
-        .toArray(function(err, data) {
-          // Kinda hacky js search for user but it works
-          err ? reject(err) : resolve(data.find(el => el.emp_id == id));
-        });
+        db.collection("sample_employees")
+          .find() // Will not return any query results unless I hardcode params
+          .toArray(function (err, data) {
+            // Kinda hacky js search for user but it works
+            err ? reject(err) : resolve(data.find((el) => el.emp_id == id));
+          });
       });
     };
 
     // Call promise
     myPromise(req.params.id)
-    .then((response) => {
-      // Create user session token
-      const token = jwt.sign(
-        { user: req.params.id },
-        process.env.ACCESS_TOKEN_SECRET
-      );
-      // Check that user was found in database
-      if (response === undefined) {
-        throw "User Not Found";
-      }
-      // Return token if found
-      res.status(200).json({
-        token: token,
+      .then((response) => {
+        // Create user session token
+        const token = jwt.sign(
+          { user: req.params.id },
+          process.env.ACCESS_TOKEN_SECRET
+        );
+        // Check that user was found in database
+        if (response === undefined) {
+          throw "User Not Found";
+        }
+        // Return token if found
+        res.status(200).json({
+          token: token,
+        });
+        client.close();
+      })
+      .catch((error) => {
+        console.log("error");
+        res.status(500).send(error);
       });
-    })
-    .catch((error) => {
-      console.log("error");
-      res.status(500).send(error);
-    });
-
   });
 });
 
