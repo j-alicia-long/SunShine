@@ -1,30 +1,18 @@
 import React, { Component } from "react";
-import ChartistGraph from "react-chartist";
 
 import GlobalMap from "components/TableauEmbed/GlobalMap.js";
+import PODMap from "components/TableauEmbed/PODMap.js";
 import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
 import GenderBreakdowns from "components/TableauEmbed/GenderBreakdowns";
 import EthnicBreakdown from "components/TableauEmbed/EthnicBreakdown";
 import PODInvolvementbyBU from "components/TableauEmbed/PODInvolvementbyBU";
+import PODInvolmentByManagerialLevel from "components/TableauEmbed/PODInvolmentByManagerialLevel.js";
 
 import { Grid, Row, Col } from "react-bootstrap";
 
 import { Card } from "components/Card/Card.jsx";
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
 import { Tasks } from "components/Tasks/Tasks.jsx";
-import {
-  dataPie,
-  legendPie,
-  dataSales,
-  optionsSales,
-  responsiveSales,
-  legendSales,
-  dataBar,
-  optionsBar,
-  responsiveBar,
-  legendBar
-} from "variables/Variables.jsx";
-
 
 class Dashboard extends Component {
   createLegend(json) {
@@ -42,40 +30,32 @@ class Dashboard extends Component {
       <div className="content">
         <Grid fluid>
           <Row>
-            <Col lg={3} sm={6}>
+            <Col lg={4} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-server text-warning" />}
-                statsText="Capacity"
-                statsValue="105GB"
-                statsIcon={<i className="fa fa-refresh" />}
-                statsIconText="Updated now"
-              />
-            </Col>
-            <Col lg={3} sm={6}>
-              <StatsCard
-                bigIcon={<i className="pe-7s-wallet text-success" />}
-                statsText="Revenue"
-                statsValue="$1,345"
+                // Name of these icons can be found here: https://themes-pixeden.com/font-demos/7-stroke/
+                bigIcon={<i className="pe-7s-users text-success" />}
+                statsText="Overall POD Involvement Number"
+                statsValue="5055 "
                 statsIcon={<i className="fa fa-calendar-o" />}
-                statsIconText="Last day"
+                statsIconText="Updated on 08/06/2020"
               />
             </Col>
-            <Col lg={3} sm={6}>
+            <Col lg={4} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-graph1 text-danger" />}
-                statsText="Errors"
-                statsValue="23"
-                statsIcon={<i className="fa fa-clock-o" />}
-                statsIconText="In the last hour"
+                bigIcon={<i className="pe-7s-graph1 text-warning" />}
+                statsText="Overall POD Involvement"
+                statsValue="11.4% "
+                statsIcon={<i className="fa fa-calendar-o" />}
+                statsIconText="Updated on 08/06/2020"
               />
             </Col>
-            <Col lg={3} sm={6}>
+            <Col lg={4} sm={6}>
               <StatsCard
-                bigIcon={<i className="fa fa-twitter text-info" />}
-                statsText="Followers"
-                statsValue="+45"
-                statsIcon={<i className="fa fa-refresh" />}
-                statsIconText="Updated now"
+                bigIcon={<i className="pe-7s-share text-danger" />}
+                statsText="Demographic PODs"
+                statsValue="7 "
+                statsIcon={<i className="fa fa-calendar-o" />}
+                statsIconText="Updated on 08/06/2020"
               />
             </Col>
           </Row>
@@ -103,33 +83,12 @@ class Dashboard extends Component {
               <PODInvolvementbyBU/>
             </Col>
             <Col lg={6} md={6}>
-              <GenderBreakdowns/>
+              <PODInvolmentByManagerialLevel/>
             </Col>
           </Row>
 
           <Row>
-            <Col md={6}>
-              <Card
-                id="chartActivity"
-                title="2014 Sales"
-                category="All products including Taxes"
-                stats="Data information certified"
-                statsIcon="fa fa-check"
-                content={
-                  <div className="ct-chart">
-                    <ChartistGraph
-                      data={dataBar}
-                      type="Bar"
-                      options={optionsBar}
-                      responsiveOptions={responsiveBar}
-                    />
-                  </div>
-                }
-                legend={
-                  <div className="legend">{this.createLegend(legendBar)}</div>
-                }
-              />
-            </Col>
+
 
             <Col md={6}>
               <Card

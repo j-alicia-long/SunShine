@@ -3,8 +3,8 @@ import { Card } from "components/Card/Card.jsx";
 
 const { tableau } = window;
 
-function PODInvolvementbyBU() {
-  const url = "https://public.tableau.com/views/PODInvolvementbyBU/PODInvolvementbyBU";
+function AverageSentiment() {
+  const url = "https://public.tableau.com/views/AverageSentiment_15966930773430/AverageSentiment";
 
   const ref = useRef(null);
 
@@ -13,6 +13,7 @@ function PODInvolvementbyBU() {
     width: "100%",
     hideTabs: false,
     hideToolbar: false,
+    //device: "desktop",
   }
 
   var viz;
@@ -32,15 +33,15 @@ function PODInvolvementbyBU() {
 
   return (
     <Card
-        id="chartActivity"
-        title="POD Involment by BU"
-        category="POD membership counts across different business units at VMware"
-        stats={<a href="#" onClick={handleClick}>View Detail</a>}
-        statsIcon="pe-7s-note"
-        content={<div id="container" ref={ref}></div>}
+      id="chartActivity"
+      title="Average Sentiment"
+      category="Average sentiment from survey"
+      stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      statsIcon="pe-7s-note"
+      content={<div id="container" ref={ref}></div>}
     />
   );
   
 }
 
-export default PODInvolvementbyBU;
+export default AverageSentiment;

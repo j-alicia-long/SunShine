@@ -3,8 +3,8 @@ import { Card } from "components/Card/Card.jsx";
 
 const { tableau } = window;
 
-function PODInvolvementbyBU() {
-  const url = "https://public.tableau.com/views/PODInvolvementbyBU/PODInvolvementbyBU";
+function PODInvolmentByManagerialLevel() {
+  const url = "https://public.tableau.com/views/PODInvolvementbyManagerialLevel/PODInvolvementbyManagerialLevel";
 
   const ref = useRef(null);
 
@@ -13,6 +13,7 @@ function PODInvolvementbyBU() {
     width: "100%",
     hideTabs: false,
     hideToolbar: false,
+    //device: "desktop",
   }
 
   var viz;
@@ -32,15 +33,15 @@ function PODInvolvementbyBU() {
 
   return (
     <Card
-        id="chartActivity"
-        title="POD Involment by BU"
-        category="POD membership counts across different business units at VMware"
-        stats={<a href="#" onClick={handleClick}>View Detail</a>}
-        statsIcon="pe-7s-note"
-        content={<div id="container" ref={ref}></div>}
+      id="chartActivity"
+      title="POD Involvement by Managerial Level"
+      category="POD membership counts by levels from CEO"
+      stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      statsIcon="pe-7s-note"
+      content={<div id="container" ref={ref}></div>}
     />
   );
   
 }
 
-export default PODInvolvementbyBU;
+export default PODInvolmentByManagerialLevel;

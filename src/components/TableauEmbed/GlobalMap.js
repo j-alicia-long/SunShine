@@ -5,6 +5,7 @@ const { tableau } = window;
 
 function GlobalMap() {
   const url = "https://public.tableau.com/views/VMwareGlobalMap/VMwareGlobalmap";
+  const url2 = "https://public.tableau.com/views/Maps_15966971049310/Maps"
 
   const ref = useRef(null);
 
@@ -18,7 +19,7 @@ function GlobalMap() {
 
   var viz;
   function initViz() {
-    viz = new tableau.Viz(ref.current, url, options);
+    viz = new tableau.Viz(ref.current, url2, options);
     
   }
 
@@ -35,8 +36,8 @@ function GlobalMap() {
     <Card
       id="chartActivity"
       title="VMware Global Map"
-      category="Global Map with number of employees in every country around the world"
-      stats={<a href="#" onClick={handleClick}>View Detail</a>}
+      category="Global Map with number of in every country around the world"
+      stats={<a href="#" onClick={handleClick}>View Detail </a> }
       statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />

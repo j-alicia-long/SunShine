@@ -4,12 +4,12 @@ import { Card } from "components/Card/Card.jsx";
 const { tableau } = window;
 
 function OverallEnjoymentDonut() {
-  const url = "https://public.tableau.com/views/OverallEnjoymentDonut/EnjoymentDonut";
+  const url = "https://public.tableau.com/views/OverallEnjoymentDonut/OverallEnjoymentDonut";
 
   const ref = useRef(null);
 
   var options = {
-    height: 300,
+    height: 330,
     width: "100%",
     hideTabs: false,
     hideToolbar: false,

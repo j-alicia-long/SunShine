@@ -9,7 +9,7 @@ function TeamDiversityDonut() {
   const ref = useRef(null);
 
   var options = {
-    height: 300,
+    height: 330,
     width: "100%",
     hideTabs: false,
     hideToolbar: false,

@@ -35,7 +35,7 @@ function BelongingSatisfactionDonut() {
     <Card
       id="chartActivity"
       title="Belonging Satisfaction Donut"
-      content={<div id="container" ref={ref}></div>}
+      content={<div id="container" ref={ref}>23.4% Positive Sentiment</div>}
     />
   );
   
