@@ -16,66 +16,72 @@ app.use(function (req, res, next) {
   next();
 });
 
+// MongoDB Client Connection Setup
 const MongoClient = require("mongodb").MongoClient;
-const uri =
-  "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true });
+const uri = "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+var db = null;
+client.connect((err, client) => {   // Client returned
+  if (err) throw err;
+  db = client.db('database');
+});
 
 // Get all users
 app.get("/users", (req, res) => {
-  client.connect((err) => {
-    if (err) throw err;
-    const db = client.db("database");
-    var query = {};
-    db.collection("sample_employees")
-      .find(query)
-      .toArray(function (err, result) {
-        if (err) throw err;
-        res.status(200).json(result);
-        client.close();
-      });
-  });
+
+  db.collection("sample_employees")
+    .find({}) // Empty query to find all
+    .toArray(function(err, result) {
+      if (err) throw err;
+      res.status(200).json(result);
+    });
+});
+
+// Get one user's info by ID
+app.get("/users/:id", (req, res) => {
+  id = parseInt(req.params.id);
+
+  db.collection("sample_employees")
+    .findOne({ emp_id: id }, function(err, result) {
+      if (err) throw err;
+      res.status(200).json(result);
+    });
 });
 
 // Get one user by ID
-app.get("/users/:id", (req, res) => {
-  client.connect((err) => {
-    const db = client.db("database");
+app.get("/usertoken/:id", (req, res) => {
+  id = parseInt(req.params.id);
+  // Declare promise
+  var myPromise = (id) => {
+    return new Promise((resolve, reject) => {
 
-    // Declare promise
-    var myPromise = (id) => {
-      return new Promise((resolve, reject) => {
-        db.collection("sample_employees")
-          .find() // Will not return any query results unless I hardcode params
-          .toArray(function (err, data) {
-            // Kinda hacky js search for user but it works
-            err ? reject(err) : resolve(data.find((el) => el.emp_id == id));
-          });
-      });
-    };
-
-    // Call promise
-    myPromise(req.params.id)
-      .then((response) => {
-        // Create user session token
-        const token = jwt.sign(
-          { user: req.params.id },
-          process.env.ACCESS_TOKEN_SECRET
-        );
-        // Check that user was found in database
-        if (response === undefined) {
-          throw "User Not Found";
-        }
-        // Return token if found
-        res.status(200).json({
-          token: token,
+      db.collection('sample_employees')
+        .findOne({ emp_id: id }, function(err, result) {
+          err ? reject(err) : resolve(result);
         });
-        client.close();
-      })
-      .catch((error) => {
-        console.log("error");
-        res.status(500).send(error);
-      });
+    });
+  };
+
+  // Call promise
+  myPromise(id)
+  .then((response) => {
+    // Create user session token
+    const token = jwt.sign(
+      { user: id },
+      process.env.ACCESS_TOKEN_SECRET
+    );
+    // Check that user was found in database
+    if (response === undefined || response === null) {
+      throw "User Not Found";
+    }
+    // Return token if found
+    res.status(200).json({
+      token: token,
+    });
+  })
+  .catch((error) => {
+    console.log("error", error);
+    res.status(500).send(error);
   });
 });
 

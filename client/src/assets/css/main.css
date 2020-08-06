@@ -10,15 +10,15 @@
 body,
 html {
   height: 100%;
-  font-family: Poppins-Regular, sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: Poppins-Regular;
+  font-family: Verdana;
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  /* color: #666666; */
   margin: 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -32,7 +32,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #333333;
+  /* color: #333333; */
 }
 
 /*---------------------------------------------*/
@@ -46,10 +46,10 @@ h6 {
 }
 
 p {
-  font-family: Poppins-Regular;
+  font-family: Verdana;
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  /* color: #666666; */
   margin: 0px;
 }
 
@@ -145,14 +145,14 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+  font-family: Verdana;
   font-size: 15px;
   color: #999999;
   line-height: 1.5;
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
+  font-family: Verdana;
   font-size: 15px;
   color: #57b846;
   line-height: 1.5;
@@ -381,7 +381,7 @@ iframe {
   right: 0px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: Verdana;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
