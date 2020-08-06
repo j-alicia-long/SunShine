@@ -16,6 +16,12 @@ app.use(function (req, res, next) {
   next();
 });
 
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
 const MongoClient = require("mongodb").MongoClient;
 const uri =
   "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
