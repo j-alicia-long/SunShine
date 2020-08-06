@@ -17,9 +17,30 @@ app.use(function (req, res, next) {
   next();
 });
 
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://admin:admin@sunshine.39p7a.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+
+// client.connect(err => {
+//   const collection = client.db("database").collection("sample_employees");
+//   console.log(collection)
+//   client.close();
+// });
+
 app.get("/users/:id", (req, res) => {
-  user_model
-    .getUser(req.params.id)
+    MongoClient.connect(uri, function(err, db) {
+        if (err) throw err;
+        var dbo = db.db("database");
+        dbo.collection("sample_employees").findOne({
+            name: req.params.id
+        },
+        function(err, result) {
+            console.log(result)
+            if (err) throw err;
+            res.json(result);
+            db.close();
+        });
+    })
     .then((response) => {
       const token = jwt.sign(
         { user: req.params.id },
