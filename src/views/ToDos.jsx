@@ -82,7 +82,11 @@ class ToDos extends Component {
               <Row>
                 <Col md={12}>
                   {this.state.arr.map((elem, idx) => {
-                    return <CustomCheckbox number={idx} label={elem.name} isChecked={elem.clicked} />
+                    return <CustomCheckbox
+                              number={idx}
+                              label={elem.name}
+                              isChecked={elem.clicked}
+                           />
                   })}
                 </Col>
               </Row>
