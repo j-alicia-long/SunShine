@@ -16,7 +16,7 @@
 
 */
 import React, { Component } from "react";
-import { Grid, Row, Col } from "react-bootstrap";
+import { Grid, Row, Col, ListGroup } from "react-bootstrap";
 import CustomCheckbox from "components/CustomCheckbox/CustomCheckbox";
 import * as typeformEmbed from '@typeform/embed';
 
@@ -94,12 +94,15 @@ class ToDos extends Component {
             <div className="content">
               <Row>
                 <Col md={12}>
+                <h6>Click to complete the tasks below</h6>
                   {this.state.arr.map((elem, idx) => {
-                    return <CustomCheckbox
-                              number={idx}
-                              label={elem.name}
-                              isChecked={elem.clicked}
-                           />
+                    return (
+                        <CustomCheckbox
+                          number={idx}
+                          label={elem.name}
+                          isChecked={elem.clicked}
+                        />
+                    )
                   })}
                 </Col>
               </Row>

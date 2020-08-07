@@ -56,7 +56,7 @@ class CustomCheckbox extends Component {
           {...rest}
         />
         <label htmlFor={number}>
-          {label}
+          {label} <i class="fa fa-sign-in" />
         </label>
       </hoverDiv>
     );

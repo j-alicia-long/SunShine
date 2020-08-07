@@ -24,14 +24,8 @@ class Dashboard extends Component {
     }
     return legend;
   }
+  
   render() {
-    const jumbotronImg = {
-      flex:1,
-      height: null,
-      resizeMode: 'contain',
-      width: null,
-    }
-
     return (
       <div className="content">
         <Grid fluid>
@@ -75,9 +69,7 @@ class Dashboard extends Component {
                 />
               </a>
             </Col>
-            <Col xl={4} lg={6} sm={6}>
-              <Image style={jumbotronImg} src={jumbotron} fluid rounded/>
-            </Col>
+
             <Col xl={4} lg={6} sm={6}>
               <ToDos/>
             </Col>
