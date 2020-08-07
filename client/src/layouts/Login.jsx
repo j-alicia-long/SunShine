@@ -18,16 +18,17 @@ import Button from "components/CustomButton/CustomButton.jsx";
 import "assets/css/main.css";
 import "assets/css/util.css";
 
-const Login = () => {
+const Login = (props) => {
   const [isLoggedIn, setLoggedIn] = useState(false);
   const [isError, setIsError] = useState(false);
   const [userId, setUserId] = useState("");
   const { setAuthTokens } = useAuth();
 
+  // gets an auth token when user logs in with particular id
   function postLogin(e) {
     e.preventDefault();
     axios
-      .get(`http://localhost:3001/usertoken/${userId}`)
+      .get(`https://vmaware.herokuapp.com/api/usertoken/${userId}`)
       .then((result) => {
         if (result.status === 200) {
           // make the current user logged in
@@ -42,7 +43,20 @@ const Login = () => {
       });
   }
 
+  // gets user data from database
   if (isLoggedIn) {
+    axios
+      .get(`https://vmaware.herokuapp.com/api/users/${userId}`)
+      .then((result) => {
+        if (result.status === 200) {
+          props.setUser(result.data);
+        } else {
+          setIsError(true);
+        }
+      })
+      .catch((e) => {
+        setIsError(true);
+      });
     return <Redirect to="/admin/dashboard" />;
   }
 
