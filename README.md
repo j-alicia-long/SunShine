@@ -24,7 +24,7 @@ Behind the scenes, we will provide recommendations for HR and team managers on h
 * **[Jason Au](https://github.com/jau8)** - *Full-stack development*
 * **[Udisha Bhattacharyya](https://github.com/udishab)** - *Data analysis, database management*
 * **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack development*
-* **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack development, web scraping*
+* **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack development, web scraping, UI/UX*
 * **[Joshua Paredes](https://github.com/jparedes30)** - *Data analysis*
 
 
@@ -56,6 +56,12 @@ This full-stack web application was primarily built with the MERN (MongoDB, Expr
 * [MongoDB](https://www.mongodb.com/) - NoSQL Database (User Auth)
 * [AWS](https://aws.amazon.com/products/databases/) - Database Hosting
 * [Heroku](https://heroku.com/) - Web app deployment
+
+### Data Analysis Tools
+* Tableau - Data Visualizations
+* NLTK - NLP Sentiment Analysis
+* Stitch - Data pipeline
+* Selenium - Web scraping
 
 
 ## Useful Links
