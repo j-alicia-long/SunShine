@@ -25,13 +25,13 @@ class Dashboard extends Component {
     return legend;
   }
 
-  const jumbotronImg = {
-    maxWidth: "100%",
-    maxHeight: "100%",
-    marginBottom: "15px",
-  };
-
   render() {
+    const jumbotronImg = {
+      maxWidth: "100%",
+      maxHeight: "100%",
+      marginBottom: "15px",
+    };
+    
     return (
       <div className="content">
         <Grid fluid>

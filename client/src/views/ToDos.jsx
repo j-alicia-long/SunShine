@@ -94,7 +94,9 @@ class ToDos extends Component {
             <div className="content">
               <Row>
                 <Col md={12}>
-                <h6>Click to complete the tasks below</h6>
+                  <h6 className="text-success">
+                    Click to complete the tasks below
+                  </h6>
                   {this.state.arr.map((elem, idx) => {
                     return (
                         <CustomCheckbox
