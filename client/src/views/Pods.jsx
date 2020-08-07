@@ -36,7 +36,9 @@ class Pods extends Component {
       <div className="content">
         <Grid fluid>
           <Row>
+            <a href="https://source.vmware.com/portal/pages/Programs/pod-contacts">
             <Image style={bannerImg} src={podBanner} fluid />
+            </a>
           </Row>
           <Row>
             <Col xl={2} lg={3} sm={6}>

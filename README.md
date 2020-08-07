@@ -3,7 +3,8 @@
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![GitHub issues open](https://img.shields.io/github/issues/j-alicia-long/SunShine.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/j-alicia-long/SunShine.svg?maxAge=2592000)]()
 
-[INSERT PRODUCT GIF]
+![App Dashboard](/client/public/dashboard.png?raw=true "VMAware Data Hub Dashboard")
+
 ## VMAware: A D&I Hub
 We would like for VMware to be at the forefront of the movement in diversifying talent across the company's workforce. To propel VMware forward in promoting Diversity & Inclusion (D&I), we are building a web application that will leverage data visualization to analyze the diversity of backgrounds & perspectives across VMware employees.
 
