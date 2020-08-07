@@ -73,8 +73,8 @@ class Sidebar extends Component {
             {this.state.width <= 991 ? <AdminNavbarLinks /> : null}
 
             <li className="active active-pro">
-              <a href="https://social.vmware.com/spaces/categories/489">
-                Join a POD <i class="fa fa-plus" />
+              <a href="https://social.vmware.com/spaces/categories/1380">
+                <strong>Join a POD</strong> <i class="fa fa-plus" />
               </a>
             </li>
 

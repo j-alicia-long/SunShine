@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import podBanner from "assets/img/pod-logos-banner.png";
+
 import GlobalMap from "components/TableauEmbed/GlobalMap.js";
 import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
 import GenderBreakdowns from "components/TableauEmbed/GenderBreakdowns";
@@ -24,7 +26,7 @@ class Pods extends Component {
   }
 
   render() {
-    const jumbotronImg = {
+    const bannerImg = {
       maxWidth: "100%",
       maxHeight: "100%",
       marginBottom: "15px",
@@ -33,6 +35,9 @@ class Pods extends Component {
     return (
       <div className="content">
         <Grid fluid>
+          <Row>
+            <Image style={bannerImg} src={podBanner} fluid />
+          </Row>
           <Row>
             <Col xl={2} lg={3} sm={6}>
               <StatsCard
@@ -57,7 +62,7 @@ class Pods extends Component {
               <StatsCard
                 bigIcon={<i className="pe-7s-share text-danger" />}
                 statsText="Total Demographic PODs"
-                statsValue="7 "
+                statsValue="23 "
                 statsIcon={<i className="fa fa-calendar-o" />}
                 statsIconText="Updated on 08/06/2020"
               />

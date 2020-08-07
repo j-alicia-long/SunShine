@@ -39,7 +39,7 @@ class Dashboard extends Component {
             <Col xl={2} lg={3} xs={6}>
               <Card
                 content={
-                  <Row>
+                  <Row href="/admin/todos">
                     <Col sm={4}>
                       <h1><i className="pe-7s-users text-success"/></h1>
                     </Col>
@@ -76,7 +76,7 @@ class Dashboard extends Component {
               />
             </Col>
             <Col xl={2} lg={3} xs={6}>
-              <a href="https://social.vmware.com/spaces/categories/489">
+              <a href="https://social.vmware.com/spaces/categories/1380">
                 <Card
                   content={
                     <Row>

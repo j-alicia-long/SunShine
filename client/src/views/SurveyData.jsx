@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+import vmInclusionLogo from "assets/img/vminclusion.png";
+import Polls from "components/Tasks/Polls.jsx";
+
 import OverallEnjoymentDonut from "components/TableauEmbed/Donuts/OverallEnjoymentDonut.js";
 import ProfessionalDevelopmentSatisfactionDonut from "components/TableauEmbed/Donuts/ProfessionalDevelopmentSatisfactionDonut.js";
 import BelongingSatisfactionDonut from "components/TableauEmbed/Donuts/BelongingSatisfactionDonut.js";
@@ -11,7 +14,7 @@ import AverageSentiment from "components/TableauEmbed/SurveyData/AverageSentimen
 
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
 
-import { Grid, Row, Col } from "react-bootstrap";
+import { Grid, Row, Col, Button, Image } from "react-bootstrap";
 
 class SurveyData extends Component {
     createLegend(json) {
@@ -24,7 +27,14 @@ class SurveyData extends Component {
       }
       return legend;
     }
+
     render() {
+      const bannerImg = {
+        maxWidth: "100%",
+        maxHeight: "100%",
+        marginBottom: "15px",
+      };
+
       return (
         <div className="content">
           <Grid fluid>
@@ -51,7 +61,14 @@ class SurveyData extends Component {
                   statsIconText="Updated on 08/06/2020"
                 />
               </Col>
+              <Col xl={3} lg={4} sm={6}>
+                <Image style={bannerImg} src={vmInclusionLogo} fluid />
+                <Button variant="success" size="lg" block>
+                  <h4>Take Surveys</h4>
+                </Button>
+              </Col>
             </Row>
+
             <Row>
               <Col lg={3} md={6}>
                 <OverallEnjoymentDonut/>
@@ -66,6 +83,8 @@ class SurveyData extends Component {
                <TeamDiversityDonut/>
               </Col>
             </Row>
+
+            <Polls pollPreview={true}/>
 
             <Row>
               <Col lg={6}>
