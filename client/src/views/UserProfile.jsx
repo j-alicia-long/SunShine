@@ -129,6 +129,96 @@ class UserProfile extends Component {
                         },
                       ]}
                     />
+                    <FormInputs
+                      ncols={["col-md-12"]}
+                      properties={[
+                        {
+                          label: "Gender",
+                          type: "text",
+                          bsClass: "form-control",
+                          placeholder: "Office Location",
+                          defaultValue: this.state.user.location,
+                        },
+                      ]}
+                    />
+                    <Row style={{ paddingBottom: "10px" }}>
+                      <Col md={6}>
+                        <label for="ethnicity" style={{ paddingRight: "10px" }}>
+                          Select your ethnicity
+                        </label>
+                        <select id="ethnicity" name="ethnicity">
+                          <option value="white">White</option>
+                          <option value="hispanic">Hispanic or Latino</option>
+                          <option value="black">
+                            Black or African American
+                          </option>
+                          <option value="native-american">
+                            Native American or American Indian
+                          </option>
+                          <option value="asian">
+                            Asian / Pacific Islander
+                          </option>
+                        </select>
+                      </Col>
+                      <Col md={6}>
+                        <label for="gender" style={{ paddingRight: "10px" }}>
+                          What is your gender?
+                        </label>
+                        <select id="gender" name="gender">
+                          <option value="white">Female</option>
+                          <option value="hispanic">Male</option>
+                          <option value="black">Non-binary/third gender</option>
+                          <option value="native-american">
+                            Prefer Not to Say
+                          </option>
+                        </select>
+                      </Col>
+                    </Row>
+                    <Row style={{ paddingBottom: "10px" }}>
+                      <Col md={4}>
+                        <p style={{ color: "#9A9A9A" }}>
+                          Do you identify as LGBTQIA+?
+                        </p>
+                        <input type="radio" id="yes" value="yes" />
+                        <label for="yes" style={{ marginLeft: "4px" }}>
+                          Yes
+                        </label>
+                        <br />
+                        <input type="radio" id="no" value=" no" />
+                        <label for="no" style={{ marginLeft: "4px" }}>
+                          No
+                        </label>
+                        <br />
+                      </Col>
+                      <Col md={4}>
+                        <p style={{ color: "#9A9A9A" }}>Are you a veteran?</p>
+                        <input type="radio" id="yes" value="yes" />
+                        <label for="yes" style={{ marginLeft: "4px" }}>
+                          Yes
+                        </label>
+                        <br />
+                        <input type="radio" id="no" value=" no" />
+                        <label for="no" style={{ marginLeft: "4px" }}>
+                          No
+                        </label>
+                        <br />
+                      </Col>
+                      <Col md={4}>
+                        <p style={{ color: "#9A9A9A" }}>
+                          Do you self-identify has having a disability?
+                        </p>
+                        <input type="radio" id="yes" value="yes" />
+                        <label for="yes" style={{ marginLeft: "4px" }}>
+                          Yes
+                        </label>
+                        <br />
+                        <input type="radio" id="no" value=" no" />
+                        <label for="no" style={{ marginLeft: "4px" }}>
+                          No
+                        </label>
+                        <br />
+                      </Col>
+                    </Row>
                     <Button bsStyle="info" pullRight fill type="submit">
                       Submit Changes
                     </Button>

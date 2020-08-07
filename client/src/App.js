@@ -32,7 +32,6 @@ function App(props) {
         />
         <PrivateRoute path="/admin" component={AdminLayout} user={user} />
       </BrowserRouter>
-      <div> {console.log(user)}</div>
     </AuthContext.Provider>
   );
 }
