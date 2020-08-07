@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Light Bootstrap Dashboard React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 
@@ -83,50 +67,48 @@ class Polls extends Component {
     };
 
     return (
-      <div className="content">
-        <Grid fluid>
-          <div className="card">
-            <div className="header">
-              <h4 className="title">Polls</h4>
-            </div>
-            <div className="content">
-              <Row>
-                <Col lg={6}>
-                  <Poll
-                    question={pollQuestion1}
-                    customStyles={pollCustomStyles}
-                    answers={pollAnswers1}
-                    onVote={this.handleVote}
-                  />
-                </Col>
-                <Col lg={6}>
-                  <Poll
-                    question={pollQuestion2}
-                    customStyles={pollCustomStyles}
-                    answers={pollAnswers2}
-                    onVote={this.handleVote}
-                  />
-                </Col>
-                <Col lg={6}>
-                  <Poll
-                    question={pollQuestion3}
-                    customStyles={pollCustomStyles}
-                    answers={pollAnswers3}
-                    onVote={this.handleVote}
-                  />
-                </Col>
-                <Col lg={6}>
-                  <Poll
-                    question={pollQuestion4}
-                    customStyles={pollCustomStyles}
-                    answers={pollAnswers4}
-                    onVote={this.handleVote}
-                  />
-                </Col>
-              </Row>
-            </div>
+      <div className="polls">
+        <div className="card">
+          <div className="header">
+            <h4 className="title">Polls</h4>
           </div>
-        </Grid>
+          <div className="content">
+            <Row>
+              <Col lg={6}>
+                <Poll
+                  question={pollQuestion1}
+                  customStyles={pollCustomStyles}
+                  answers={pollAnswers1}
+                  onVote={this.handleVote}
+                />
+              </Col>
+              <Col lg={6}>
+                <Poll
+                  question={pollQuestion2}
+                  customStyles={pollCustomStyles}
+                  answers={pollAnswers2}
+                  onVote={this.handleVote}
+                />
+              </Col>
+              <Col lg={6}>
+                <Poll
+                  question={pollQuestion3}
+                  customStyles={pollCustomStyles}
+                  answers={pollAnswers3}
+                  onVote={this.handleVote}
+                />
+              </Col>
+              <Col lg={6}>
+                <Poll
+                  question={pollQuestion4}
+                  customStyles={pollCustomStyles}
+                  answers={pollAnswers4}
+                  onVote={this.handleVote}
+                />
+              </Col>
+            </Row>
+          </div>
+        </div>
       </div>
     );
   }
