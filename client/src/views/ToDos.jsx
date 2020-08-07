@@ -16,7 +16,7 @@ class ToDos extends Component {
       <div className="content">
         <Grid fluid className="todo">
           <Surveys/>
-          <Polls/>
+          <Polls pollPreview={false}/>
         </Grid>
       </div>
     );

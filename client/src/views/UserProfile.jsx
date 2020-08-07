@@ -79,72 +79,71 @@ class UserProfile extends Component {
                 title="Edit Profile"
                 content={
                   <form>
-                    <FormInputs
-                      ncols={["col-md-6", "col-md-6"]}
-                      properties={[
-                        {
-                          label: "First Name",
-                          type: "text",
-                          bsClass: "form-control",
-                          placeholder: "First Name",
-                          defaultValue: this.state.user.name.split(", ")[1],
-                        },
-                        {
-                          label: "Last Name",
-                          type: "text",
-                          bsClass: "form-control",
-                          placeholder: "Last name",
-                          defaultValue: this.state.user.name.split(", ")[0],
-                        },
-                      ]}
-                    />
-                    <FormInputs
-                      ncols={["col-md-4", "col-md-8"]}
-                      properties={[
-                        {
-                          label: "Supervisory Org Lvl 2",
-                          type: "text",
-                          bsClass: "form-control",
-                          placeholder: "Supervisory Org Lvl 2",
-                          defaultValue: this.state.user.supervisory_org_level2,
-                        },
-                        {
-                          label: "Supervisory Org Lvl 3",
-                          type: "text",
-                          bsClass: "form-control",
-                          placeholder: "Last name",
-                          defaultValue: this.state.user.supervisory_org_level3,
-                        },
-                      ]}
-                    />
-                    <FormInputs
-                      ncols={["col-md-12"]}
-                      properties={[
-                        {
-                          label: "Office Location",
-                          type: "text",
-                          bsClass: "form-control",
-                          placeholder: "Office Location",
-                          defaultValue: this.state.user.location,
-                        },
-                      ]}
-                    />
-                    <FormInputs
-                      ncols={["col-md-12"]}
-                      properties={[
-                        {
-                          label: "Gender",
-                          type: "text",
-                          bsClass: "form-control",
-                          placeholder: "Office Location",
-                          defaultValue: this.state.user.location,
-                        },
-                      ]}
-                    />
+                    <>
+                      <FormInputs
+                        ncols={["col-md-6", "col-md-6"]}
+                        properties={[
+                          {
+                            label: "First Name",
+                            type: "text",
+                            bsClass: "form-control",
+                            placeholder: "First Name",
+                            defaultValue: this.state.user.name.split(", ")[1],
+                          },
+                          {
+                            label: "Last Name",
+                            type: "text",
+                            bsClass: "form-control",
+                            placeholder: "Last name",
+                            defaultValue: this.state.user.name.split(", ")[0],
+                          },
+                        ]}
+                      />
+                      <FormInputs
+                        ncols={["col-md-4", "col-md-8"]}
+                        properties={[
+                          {
+                            label: "Supervisory Org Lvl 2",
+                            type: "text",
+                            bsClass: "form-control",
+                            placeholder: "Supervisory Org Lvl 2",
+                            defaultValue: this.state.user.supervisory_org_level2,
+                          },
+                          {
+                            label: "Supervisory Org Lvl 3",
+                            type: "text",
+                            bsClass: "form-control",
+                            placeholder: "Last name",
+                            defaultValue: this.state.user.supervisory_org_level3,
+                          },
+                        ]}
+                      />
+                      <FormInputs
+                        ncols={["col-md-12"]}
+                        properties={[
+                          {
+                            label: "Office Location",
+                            type: "text",
+                            bsClass: "form-control",
+                            placeholder: "Office Location",
+                            defaultValue: this.state.user.location,
+                          },
+                        ]}
+                      />
+                      <Button bsStyle="info" pullRight fill type="submit">
+                        Submit Changes
+                      </Button>
+                    </>
+
+                    <br/><br/>
+                    <hr/>
+                    <h4>Self-reported Demographics</h4>
+                    <br/>
+
                     <Row style={{ paddingBottom: "10px" }}>
                       <Col md={6}>
                         <label for="ethnicity" style={{ paddingRight: "10px" }}>
-                          Select your ethnicity
+                          Ethnicity
                         </label>
                         <select id="ethnicity" name="ethnicity">
                           <option value="white">White</option>
@@ -162,7 +161,7 @@ class UserProfile extends Component {
                       </Col>
                       <Col md={6}>
                         <label for="gender" style={{ paddingRight: "10px" }}>
-                          What is your gender?
+                          Gender
                         </label>
                         <select id="gender" name="gender">
                           <option value="white">Female</option>
@@ -219,9 +218,6 @@ class UserProfile extends Component {
                         <br />
                       </Col>
                     </Row>
-                    <Button bsStyle="info" pullRight fill type="submit">
-                      Submit Changes
-                    </Button>
                     <Button bsStyle="warning ml-2" pullRight fill>
                       Sync to WorkDay <i className="fa fa-cloud-upload" />
                     </Button>

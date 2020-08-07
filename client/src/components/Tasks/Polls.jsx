@@ -90,22 +90,26 @@ class Polls extends Component {
                   onVote={this.handleVote}
                 />
               </Col>
-              <Col lg={6}>
-                <Poll
-                  question={pollQuestion3}
-                  customStyles={pollCustomStyles}
-                  answers={pollAnswers3}
-                  onVote={this.handleVote}
-                />
-              </Col>
-              <Col lg={6}>
-                <Poll
-                  question={pollQuestion4}
-                  customStyles={pollCustomStyles}
-                  answers={pollAnswers4}
-                  onVote={this.handleVote}
-                />
-              </Col>
+              {this.props.pollPreview ? <span/> :
+                <>
+                  <Col lg={6}>
+                    <Poll
+                      question={pollQuestion3}
+                      customStyles={pollCustomStyles}
+                      answers={pollAnswers3}
+                      onVote={this.handleVote}
+                    />
+                  </Col>
+                  <Col lg={6}>
+                    <Poll
+                      question={pollQuestion4}
+                      customStyles={pollCustomStyles}
+                      answers={pollAnswers4}
+                      onVote={this.handleVote}
+                    />
+                  </Col>
+                </>
+              }
             </Row>
           </div>
         </div>

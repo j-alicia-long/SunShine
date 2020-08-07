@@ -19,7 +19,7 @@ function AverageSentiment() {
   var viz;
   function initViz() {
     viz = new tableau.Viz(ref.current, url, options);
-    
+
   }
 
   useEffect(() => {
@@ -34,14 +34,14 @@ function AverageSentiment() {
   return (
     <Card
       id="chartActivity"
-      title="Average Sentiment"
-      category="Average sentiment from survey"
+      title="Average Employee Sentiment"
+      category="Average sentiment from survey of VMware employees"
       //stats={<a href="#" onClick={handleClick}>View Detail</a>}
       //statsIcon="pe-7s-note"
       content={<div id="container" ref={ref}></div>}
     />
   );
-  
+
 }
 
 export default AverageSentiment;

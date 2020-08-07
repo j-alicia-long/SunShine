@@ -71,34 +71,39 @@ class Sidebar extends Component {
         <div className="sidebar-wrapper">
           <ul className="nav">
             {this.state.width <= 991 ? <AdminNavbarLinks /> : null}
+
+            <li className="active active-pro">
+              <a href="https://social.vmware.com/spaces/categories/1380">
+                <strong>Join a POD</strong> <i class="fa fa-plus" />
+              </a>
+            </li>
+
             {this.props.routes.map((prop, key) => {
               if (!prop.redirect)
                 return (
-                  <li
-                    className={
-                      prop.upgrade
-                        ? "active active-pro"
-                        : this.activeRoute(prop.layout + prop.path)
-                    }
-                    key={key}
-                  >
-                    <NavLink
-                      to={prop.layout + prop.path}
-                      className="nav-link"
-                      activeClassName="active"
+                  <>
+                    {prop.name == "User Profile" ? <hr /> : null}
+                    <li
+                      className={
+                        prop.upgrade
+                          ? "active active-pro"
+                          : this.activeRoute(prop.layout + prop.path)
+                      }
+                      key={key}
                     >
-                      <i className={prop.icon} />
-                      <p>{prop.name}</p>
-                    </NavLink>
-                  </li>
+                      <NavLink
+                        to={prop.layout + prop.path}
+                        className="nav-link"
+                        activeClassName="active"
+                      >
+                        <i className={prop.icon} />
+                        <p>{prop.name}</p>
+                      </NavLink>
+                    </li>
+                  </>
                 );
               return null;
             })}
-            <li className="active active-pro">
-              <a href="https://social.vmware.com/spaces/categories/489">
-                Join a POD <i class="fa fa-plus" />
-              </a>
-            </li>
           </ul>
         </div>
       </div>
