@@ -45,13 +45,17 @@ Quick start options:
 
 
 ## Built With
+This full-stack web application was primarily built with the MERN (MongoDB, Express, React, NodeJS) stack and deployed on Heroku.
 
 * [ReactJS](https://reactjs.org/) - Frontend UI
 * [NodeJS & Express JS](https://expressjs.com/) - Backend server
 * [React-Bootstrap](https://react-bootstrap.github.io/), for UI components
   - [Light Bootstrap Dashboard React](https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/?ref=lbdr-readme), for base UI template
-* [PostgreSQL](https://www.postgresql.org/) - Database
-* [AWS](https://aws.amazon.com/products/databases/) - Web and Database Hosting
+* [React-Polls](https://www.npmjs.com/package/react-polls/v/1.1.0) - For React polling component
+* [PostgreSQL](https://www.postgresql.org/) - SQL Database
+* [MongoDB](https://www.mongodb.com/) - NoSQL Database (User Auth)
+* [AWS](https://aws.amazon.com/products/databases/) - Database Hosting
+* [Heroku](https://heroku.com/) - Web app deployment
 
 
 ## Useful Links

@@ -19,7 +19,7 @@ import Dashboard from "views/Dashboard.jsx";
 import UserProfile from "views/UserProfile.jsx";
 import TableList from "views/TableList.jsx";
 import ToDos from "views/ToDos.jsx";
-import Demographics from "views/Demographics";
+import SurveyData from "views/SurveyData";
 
 const dashboardRoutes = [{
     path: "/dashboard",
@@ -32,7 +32,7 @@ const dashboardRoutes = [{
     path: "/survey-data",
     name: "D&I Survey Data",
     icon: "pe-7s-note2",
-    component: Demographics,
+    component: SurveyData,
     layout: "/admin"
   },
   {

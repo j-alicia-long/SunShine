@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import ToDos from "views/ToDos.jsx";
+import Surveys from "components/Tasks/Surveys.jsx";
 import GlobalMap from "components/TableauEmbed/GlobalMap.js";
 import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
 import GenderBreakdowns from "components/TableauEmbed/GenderBreakdowns";
@@ -31,7 +31,7 @@ class Dashboard extends Component {
       maxHeight: "100%",
       marginBottom: "15px",
     };
-    
+
     return (
       <div className="content">
         <Grid fluid>
@@ -79,7 +79,7 @@ class Dashboard extends Component {
               <Image style={jumbotronImg} src={jumbotron} fluid rounded />
             </Col>
             <Col xl={6} lg={6} sm={6}>
-              <ToDos />
+              <Surveys />
             </Col>
           </Row>
           <Row>
