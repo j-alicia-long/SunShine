@@ -23,14 +23,14 @@ import Demographics from "views/Demographics";
 
 const dashboardRoutes = [{
     path: "/dashboard",
-    name: "Dashboard",
+    name: "Data Dashboard",
     icon: "pe-7s-graph",
     component: Dashboard,
     layout: "/admin"
   },
   {
     path: "/survey-data",
-    name: "Survey Data",
+    name: "D&I Survey Data",
     icon: "pe-7s-note2",
     component: Demographics,
     layout: "/admin"

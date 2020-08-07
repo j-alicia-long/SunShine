@@ -16,6 +16,7 @@
 
 */
 import React, { Component } from "react";
+import styled from 'styled-components';
 
 class CustomCheckbox extends Component {
 
@@ -48,6 +49,9 @@ class CustomCheckbox extends Component {
         />
         <label htmlFor={number}>
           {label}
+          <span className="text-success">
+            <i class="fa fa-sign-in" />
+          </span>
         </label>
       </div>
     );
