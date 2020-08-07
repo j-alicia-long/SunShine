@@ -38,16 +38,8 @@ class CustomCheckbox extends Component {
     const classes =
       inline !== undefined ? "checkbox checkbox-inline" : "checkbox";
 
-    const hoverDiv = styled.div`
-      margin: 40px;
-      border: 5px pink;
-      &:hover {
-       background-color: yellow;
-     }
-    `;
-
     return (
-      <hoverDiv className={classes}>
+      <div className={classes}>
         <input
           id={number}
           type="checkbox"
@@ -57,8 +49,11 @@ class CustomCheckbox extends Component {
         />
         <label htmlFor={number}>
           {label}
+          <span className="text-success">
+            <i class="fa fa-sign-in" />
+          </span>
         </label>
-      </hoverDiv>
+      </div>
     );
   }
 }

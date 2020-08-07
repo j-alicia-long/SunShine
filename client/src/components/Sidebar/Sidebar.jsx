@@ -94,6 +94,11 @@ class Sidebar extends Component {
                 );
               return null;
             })}
+            <li className="active active-pro">
+              <a href="https://social.vmware.com/spaces/categories/489">
+                Join a POD <i class="fa fa-plus" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
