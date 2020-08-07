@@ -129,9 +129,11 @@ class UserProfile extends Component {
                         },
                       ]}
                     />
-
                     <Button bsStyle="info" pullRight fill type="submit">
                       Submit Changes
+                    </Button>
+                    <Button bsStyle="warning ml-2" pullRight fill>
+                      Sync to WorkDay <i className="fa fa-cloud-upload" />
                     </Button>
                     <div className="clearfix" />
                   </form>

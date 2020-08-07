@@ -61,3 +61,6 @@ Borathon info website: https://submissions.eng.vmware.com/borathon-eda-intern-fy
 Project Submission: https://submissions.eng.vmware.com/borathon-eda-intern-fy21q2/submissions/23652
 
 Google Drive planning folder: https://drive.google.com/drive/u/0/folders/1CUlmwjvJl4H7xTvWgDBrZL4aeIDKBj9q
+
+Setting up a full-stack NodeJS application
+- https://stackoverflow.com/questions/58070919/how-to-run-one-npm-start-for-two-different-folders-in-my-project-directory
