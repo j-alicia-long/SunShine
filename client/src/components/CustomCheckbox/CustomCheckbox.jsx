@@ -16,6 +16,7 @@
 
 */
 import React, { Component } from "react";
+import styled from 'styled-components';
 
 class CustomCheckbox extends Component {
 
@@ -37,8 +38,16 @@ class CustomCheckbox extends Component {
     const classes =
       inline !== undefined ? "checkbox checkbox-inline" : "checkbox";
 
+    const hoverDiv = styled.div`
+      margin: 40px;
+      border: 5px pink;
+      &:hover {
+       background-color: yellow;
+     }
+    `;
+
     return (
-      <div className={classes}>
+      <hoverDiv className={classes}>
         <input
           id={number}
           type="checkbox"
@@ -49,7 +58,7 @@ class CustomCheckbox extends Component {
         <label htmlFor={number}>
           {label}
         </label>
-      </div>
+      </hoverDiv>
     );
   }
 }

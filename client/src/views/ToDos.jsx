@@ -16,7 +16,7 @@
 
 */
 import React, { Component } from "react";
-import { Grid, Row, Col, Alert } from "react-bootstrap";
+import { Grid, Row, Col } from "react-bootstrap";
 import CustomCheckbox from "components/CustomCheckbox/CustomCheckbox";
 import * as typeformEmbed from '@typeform/embed';
 
@@ -44,7 +44,7 @@ class ToDos extends Component {
         autoClose: 3000,
         hideHeaders: true,
         hideFooter: true,
-        onSubmit: () => console.log('Successfully submited')
+        onSubmit: () => console.log('Successfully submitted')
       })
 
     const developmentSurvey = typeformEmbed.makePopup(
@@ -54,7 +54,18 @@ class ToDos extends Component {
         autoClose: 3000,
         hideHeaders: true,
         hideFooter: true,
-        onSubmit: () => console.log('Successfully submited')
+        onSubmit: () => console.log('Successfully submitted')
+      }
+    )
+
+    const generalSurvey = typeformEmbed.makePopup(
+      'https://udishab.typeform.com/to/nFM62jbT',
+      {
+        mode: 'popup',
+        autoClose: 3000,
+        hideHeaders: true,
+        hideFooter: true,
+        onSubmit: () => console.log('Successfully submitted')
       }
     )
 
@@ -65,9 +76,11 @@ class ToDos extends Component {
     document.getElementById('2').addEventListener('click', function () {
       developmentSurvey.open();
     })
+
+    document.getElementById('3').addEventListener('click', function () {
+      generalSurvey.open();
+    })
   }
-
-
 
 
   render() {
