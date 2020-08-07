@@ -40,8 +40,14 @@ NOTE: UPDATE THIS WITH NEW SCREENSHOTS
 Quick start options:
 
 - Clone the repo: `git clone https://github.com/j-alicia-long/SunShine.git`.
-- Install dependencies: `npm install`
-- Run the project: `npm start`
+- Install server and client dependencies:
+  ```
+    cd SunShine
+    npm install   # server dependencies
+    cd client
+    npm install   # client dependencies
+  ```
+- Run the project from the root directory: `npm run dev`
 
 
 ## Built With
