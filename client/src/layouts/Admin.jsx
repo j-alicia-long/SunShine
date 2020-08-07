@@ -23,7 +23,7 @@ import Sidebar from "components/Sidebar/Sidebar";
 
 import routes from "routes.js";
 
-import image from "assets/img/sidebar.jpg";
+import image from "assets/img/sidebar-bg.png";
 
 class Admin extends Component {
 
@@ -32,7 +32,7 @@ class Admin extends Component {
     this.state = {
       _notificationSystem: null,
       image: image,
-      color: "black",
+      color: "green",
       hasImage: true,
       fixedClasses: "dropdown show-dropdown open"
     };

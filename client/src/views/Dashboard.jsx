@@ -26,7 +26,7 @@ class Dashboard extends Component {
       <div className="content">
         <Grid fluid>
           <Row>
-            <Col lg={4} sm={6}>
+            <Col lg={3} sm={6}>
               <StatsCard
                 // Name of these icons can be found here: https://themes-pixeden.com/font-demos/7-stroke/
                 bigIcon={<i className="pe-7s-users text-success" />}
@@ -36,7 +36,7 @@ class Dashboard extends Component {
                 statsIconText="Updated on 08/06/2020"
               />
             </Col>
-            <Col lg={4} sm={6}>
+            <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-graph1 text-warning" />}
                 statsText="Overall POD Involvement"
@@ -45,7 +45,7 @@ class Dashboard extends Component {
                 statsIconText="Updated on 08/06/2020"
               />
             </Col>
-            <Col lg={4} sm={6}>
+            <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-share text-danger" />}
                 statsText="Demographic PODs"
@@ -54,31 +54,34 @@ class Dashboard extends Component {
                 statsIconText="Updated on 08/06/2020"
               />
             </Col>
+            <Col lg={3} sm={6}>
+              <StatsCard
+                bigIcon={<i className="pe-7s-network text-info" />}
+                statsText="D&I PODs"
+                statsValue="7 "
+                statsIcon={<i className="fa fa-calendar-o" />}
+                statsIconText="Updated on 08/06/2020"
+              />
+            </Col>
           </Row>
 
           <Row>
-            <Col lg={6}>
+            <Col xl={4} lg={6}>
               <PODMemberCounts/>
             </Col>
-            <Col lg={6}>
+            <Col xl={4} lg={6}>
               <GlobalMap/>
             </Col>
-          </Row>
-
-          <Row>
-            <Col lg={6} md={6}>
+            <Col xl={4} md={6}>
               <EthnicBreakdown/>
             </Col>
-            <Col lg={6} md={6}>
+            <Col xl={4} md={6}>
               <GenderBreakdowns/>
             </Col>
-          </Row>
-
-          <Row>
-            <Col lg={6} md={6}>
+            <Col xl={4} md={6}>
               <PODInvolvementbyBU/>
             </Col>
-            <Col lg={6} md={6}>
+            <Col xl={4} md={6}>
               <PODInvolmentByManagerialLevel/>
             </Col>
           </Row>

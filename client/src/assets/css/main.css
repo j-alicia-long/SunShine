@@ -10,12 +10,10 @@
 body,
 html {
   height: 100%;
-  font-family: Verdana, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: Verdana;
   font-size: 14px;
   line-height: 1.7;
   /* color: #666666; */
@@ -46,7 +44,6 @@ h6 {
 }
 
 p {
-  font-family: Verdana;
   font-size: 14px;
   line-height: 1.7;
   /* color: #666666; */
@@ -145,14 +142,12 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Verdana;
   font-size: 15px;
   color: #999999;
   line-height: 1.5;
 }
 
 .txt2 {
-  font-family: Verdana;
   font-size: 15px;
   color: #57b846;
   line-height: 1.5;
@@ -195,7 +190,6 @@ iframe {
 
 .login100-form-title {
   display: block;
-  font-family: Poppins-Bold;
   font-size: 39px;
   color: #333333;
   line-height: 1.2;
@@ -225,7 +219,6 @@ iframe {
 }
 
 .input100 {
-  font-family: Poppins-SemiBold;
   font-size: 18px;
   color: #555555;
   line-height: 1.2;
@@ -266,7 +259,6 @@ iframe {
 }
 
 .focus-input100::after {
-  font-family: Poppins-Medium;
   font-size: 18px;
   color: #999999;
   line-height: 1.2;
@@ -317,7 +309,6 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Poppins-Medium;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -381,7 +372,6 @@ iframe {
   right: 0px;
   pointer-events: none;
 
-  font-family: Verdana;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
