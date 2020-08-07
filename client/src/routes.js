@@ -16,16 +16,23 @@
 
 */
 import Dashboard from "views/Dashboard.jsx";
-import UserProfile from "views/UserProfile.jsx";
-import TableList from "views/TableList.jsx";
-import ToDos from "views/ToDos.jsx";
 import SurveyData from "views/SurveyData";
+import Pods from "views/Pods";
+import UserProfile from "views/UserProfile.jsx";
+import ToDos from "views/ToDos.jsx";
 
 const dashboardRoutes = [{
     path: "/dashboard",
-    name: "Data Dashboard",
+    name: "Dashboard",
     icon: "pe-7s-graph",
     component: Dashboard,
+    layout: "/admin"
+  },
+  {
+    path: "/pods",
+    name: "PODs",
+    icon: "pe-7s-global",
+    component: Pods,
     layout: "/admin"
   },
   {

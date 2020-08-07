@@ -68,10 +68,10 @@ class SurveyData extends Component {
             </Row>
 
             <Row>
-              <Col xl={6}>
+              <Col lg={6}>
                 <AverageSentiment/>
               </Col>
-              <Col xl={6}>
+              <Col lg={6}>
                 <SurveySentiments/>
               </Col>
             </Row>

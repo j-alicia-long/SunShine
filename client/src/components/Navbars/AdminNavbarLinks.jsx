@@ -31,10 +31,6 @@ class AdminNavbarLinks extends Component {
     return (
       <div>
         <Nav>
-          <NavItem eventKey={1} href="/admin/dashboard">
-            <i className="fa fa-dashboard" />
-            <p className="hidden-lg hidden-md">Dashboard</p>
-          </NavItem>
           <NavDropdown
             eventKey={2}
             title={taskList}

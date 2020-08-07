@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 
+import jumbotron from "assets/img/jumbotron.png";
 import Surveys from "components/Tasks/Surveys.jsx";
+
 import GlobalMap from "components/TableauEmbed/GlobalMap.js";
-import PODMemberCounts from "components/TableauEmbed/PODMemberCounts";
+import AverageSentiment from "components/TableauEmbed/SurveyData/AverageSentiment.js";
 import GenderBreakdowns from "components/TableauEmbed/GenderBreakdowns";
 import EthnicBreakdown from "components/TableauEmbed/EthnicBreakdown";
-import PODInvolvementbyBU from "components/TableauEmbed/PODInvolvementbyBU";
-import PODInvolmentByManagerialLevel from "components/TableauEmbed/PODInvolmentByManagerialLevel.js";
 
 import { Grid, Row, Col, Image } from "react-bootstrap";
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
+import { Card } from "components/Card/Card.jsx";
 
-import jumbotron from "assets/img/jumbotron.png";
 
 class Dashboard extends Component {
   createLegend(json) {
@@ -35,46 +35,63 @@ class Dashboard extends Component {
     return (
       <div className="content">
         <Grid fluid>
-          <Row>
-            <Col xl={2} lg={3} sm={6}>
-              <StatsCard
-                // Name of these icons can be found here: https://themes-pixeden.com/font-demos/7-stroke/
-                bigIcon={<i className="pe-7s-users text-success" />}
-                statsText="Total POD Membership"
-                statsValue="5055 "
-                statsIcon={<i className="fa fa-calendar-o" />}
-                statsIconText="Updated on 08/06/2020"
+          <Row className="text-right">
+            <Col xl={2} lg={3} xs={6}>
+              <Card
+                content={
+                  <Row>
+                    <Col sm={4}>
+                      <h1><i className="pe-7s-users text-success"/></h1>
+                    </Col>
+                    <Col sm={8}><h4>Complete your self-report</h4></Col>
+                  </Row>
+                }
+                stats=" "
               />
             </Col>
-            <Col xl={2} lg={3} sm={6}>
-              <StatsCard
-                bigIcon={<i className="pe-7s-graph1 text-warning" />}
-                statsText="Employee POD Involvement"
-                statsValue="11.4% "
-                statsIcon={<i className="fa fa-calendar-o" />}
-                statsIconText="Updated on 08/06/2020"
+            <Col xl={2} lg={3} xs={6}>
+              <Card
+                content={
+                  <Row>
+                    <Col sm={4}>
+                      <h1><i className="pe-7s-graph1 text-warning"/></h1>
+                    </Col>
+                    <Col sm={8}><h4>View Survey Data</h4></Col>
+                  </Row>
+                }
+                stats=" "
               />
             </Col>
-            <Col xl={2} lg={3} sm={6}>
-              <StatsCard
-                bigIcon={<i className="pe-7s-share text-danger" />}
-                statsText="Demographic PODs"
-                statsValue="7 "
-                statsIcon={<i className="fa fa-calendar-o" />}
-                statsIconText="Updated on 08/06/2020"
+            <Col xl={2} lg={3} xs={6}>
+              <Card
+                content={
+                  <Row>
+                    <Col sm={4}>
+                      <h1><i className="pe-7s-share text-danger"/></h1>
+                    </Col>
+                    <Col sm={8}><h4>Explore POD Data</h4></Col>
+                  </Row>
+                }
+                stats=" "
               />
             </Col>
-            <Col xl={2} lg={3} sm={6}>
+            <Col xl={2} lg={3} xs={6}>
               <a href="https://social.vmware.com/spaces/categories/489">
-                <StatsCard
-                  bigIcon={<i className="pe-7s-network text-info" />}
-                  statsText="VMware D&I Social Spaces"
-                  statsValue="52 "
-                  statsIcon={<i className="fa fa-calendar-o" />}
-                  statsIconText="Updated on 08/06/2020"
+                <Card
+                  content={
+                    <Row>
+                      <Col sm={4}>
+                        <h1><i className="pe-7s-network text-info"/></h1>
+                      </Col>
+                      <Col sm={8}><h4>Join PODs on VMware Social</h4></Col>
+                    </Row>
+                  }
+                  stats=" "
                 />
               </a>
             </Col>
+          </Row>
+          <Row>
             <Col xl={6} lg={6} sm={6}>
               <Image style={jumbotronImg} src={jumbotron} fluid rounded />
             </Col>
@@ -83,23 +100,19 @@ class Dashboard extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xl={4} lg={6}>
-              <PODMemberCounts />
-            </Col>
-            <Col xl={4} lg={6}>
+            <Col xl={9} md={8}>
               <GlobalMap />
             </Col>
-            <Col xl={4} md={6}>
+            <Col xl={3} md={4}>
+              <AverageSentiment/>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
               <EthnicBreakdown />
             </Col>
-            <Col xl={4} md={6}>
+            <Col md={6}>
               <GenderBreakdowns />
-            </Col>
-            <Col xl={4} md={6}>
-              <PODInvolvementbyBU />
-            </Col>
-            <Col xl={4} md={6}>
-              <PODInvolmentByManagerialLevel />
             </Col>
           </Row>
         </Grid>
