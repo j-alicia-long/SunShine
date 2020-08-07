@@ -29,11 +29,15 @@ Behind the scenes, we will provide recommendations for HR and team managers on h
 
 
 ## Demo
-NOTE: UPDATE THIS WITH NEW SCREENSHOTS
 
-| Dashboard | User Profile | Tables | Maps |
-| --- | --- | --- | --- |
-| [![Dashboard page](/client/public/dashboard.png?raw=true)]() | [![PODs page](/client/public/pods.png?raw=true)]() | [![Survey Data page ](/client/public/survey-data.png?raw=true)]() | [![User Profile page](/client/public/profile.png?raw=true)]() |
+| Dashboard | PODs |
+| --- | --- |
+| [![Dashboard page](/client/public/dashboard.png?raw=true)]() | [![PODs page](/client/public/pods.png?raw=true)]() |
+
+| Survey Data | User Profile |
+| --- | --- |
+| [![Survey Data page ](/client/public/survey-data.png?raw=true)]() | [![User Profile page](/client/public/profile.png?raw=true)]() |
+
 
 ## Quick start
 
