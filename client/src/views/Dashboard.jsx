@@ -26,11 +26,10 @@ class Dashboard extends Component {
   }
   render() {
     const jumbotronImg = {
-      flex:1,
-      height: null,
-      resizeMode: 'contain',
-      width: null,
-    }
+      maxWidth: "100%",
+      maxHeight: "100%",
+      marginBottom: "15px",
+    };
 
     return (
       <div className="content">
@@ -75,34 +74,33 @@ class Dashboard extends Component {
                 />
               </a>
             </Col>
-            <Col xl={4} lg={6} sm={6}>
-              <Image style={jumbotronImg} src={jumbotron} fluid rounded/>
+            <Col xl={6} lg={6} sm={6}>
+              <Image style={jumbotronImg} src={jumbotron} fluid rounded />
             </Col>
-            <Col xl={4} lg={6} sm={6}>
-              <ToDos/>
+            <Col xl={6} lg={6} sm={6}>
+              <ToDos />
             </Col>
           </Row>
           <Row>
             <Col xl={4} lg={6}>
-              <PODMemberCounts/>
+              <PODMemberCounts />
             </Col>
             <Col xl={4} lg={6}>
-              <GlobalMap/>
+              <GlobalMap />
             </Col>
             <Col xl={4} md={6}>
-              <EthnicBreakdown/>
+              <EthnicBreakdown />
             </Col>
             <Col xl={4} md={6}>
-              <GenderBreakdowns/>
+              <GenderBreakdowns />
             </Col>
             <Col xl={4} md={6}>
-              <PODInvolvementbyBU/>
+              <PODInvolvementbyBU />
             </Col>
             <Col xl={4} md={6}>
-              <PODInvolmentByManagerialLevel/>
+              <PODInvolmentByManagerialLevel />
             </Col>
           </Row>
-
         </Grid>
       </div>
     );
