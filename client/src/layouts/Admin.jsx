@@ -26,7 +26,6 @@ import routes from "routes.js";
 import image from "assets/img/sidebar.jpg";
 
 class Admin extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -34,10 +33,10 @@ class Admin extends Component {
       image: image,
       color: "black",
       hasImage: true,
-      fixedClasses: "dropdown show-dropdown open"
+      fixedClasses: "dropdown show-dropdown open",
     };
   }
-  handleNotificationClick = position => {
+  handleNotificationClick = (position) => {
     var color = Math.floor(Math.random() * 4 + 1);
     var level;
     switch (color) {
@@ -66,20 +65,16 @@ class Admin extends Component {
       ),
       level: level,
       position: position,
-      autoDismiss: 15
+      autoDismiss: 15,
     });
   };
-  getRoutes = routes => {
+  getRoutes = (routes, user) => {
     return routes.map((prop, key) => {
       if (prop.layout === "/admin") {
         return (
           <Route
             path={prop.layout + prop.path}
-            render={props => (
-              <prop.component
-                {...props}
-              />
-            )}
+            render={(props) => <prop.component {...props} user={user} />}
             key={key}
           />
         );
@@ -88,7 +83,7 @@ class Admin extends Component {
       }
     });
   };
-  getBrandText = path => {
+  getBrandText = (path) => {
     for (let i = 0; i < routes.length; i++) {
       if (
         this.props.location.pathname.indexOf(
@@ -100,13 +95,13 @@ class Admin extends Component {
     }
     return "Brand";
   };
-  handleImageClick = image => {
+  handleImageClick = (image) => {
     this.setState({ image: image });
   };
-  handleColorClick = color => {
+  handleColorClick = (color) => {
     this.setState({ color: color });
   };
-  handleHasImage = hasImage => {
+  handleHasImage = (hasImage) => {
     this.setState({ hasImage: hasImage });
   };
   handleFixedClick = () => {
@@ -135,16 +130,19 @@ class Admin extends Component {
   render() {
     return (
       <div className="wrapper">
-        {/* <NotificationSystem ref="notificationSystem" style={style} /> */}
-        <Sidebar {...this.props} routes={routes} image={this.state.image}
+        <Sidebar
+          {...this.props}
+          routes={routes}
+          image={this.state.image}
           color={this.state.color}
-          hasImage={this.state.hasImage} />
+          hasImage={this.state.hasImage}
+        />
         <div id="main-panel" className="main-panel" ref="mainPanel">
           <AdminNavbar
             {...this.props}
             brandText={this.getBrandText(this.props.location.pathname)}
           />
-          <Switch>{this.getRoutes(routes)}</Switch>
+          <Switch>{this.getRoutes(routes, this.props.user)}</Switch>
         </div>
       </div>
     );
