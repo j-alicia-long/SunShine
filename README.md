@@ -23,7 +23,7 @@ Behind the scenes, we will provide recommendations for HR and team managers on h
 
 * **[Jason Au](https://github.com/jau8)** - *Full-stack development*
 * **[Udisha Bhattacharyya](https://github.com/udishab)** - *Data analysis, database management*
-* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack development*
+* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack development, Deployment*
 * **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack development, web scraping, UI/UX*
 * **[Joshua Paredes](https://github.com/jparedes30)** - *Data analysis*
 
