@@ -17,11 +17,9 @@
 */
 import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
-import CustomCheckbox from "components/CustomCheckbox/CustomCheckbox";
-import * as typeformEmbed from "@typeform/embed";
 
 import Poll from "react-polls";
-import "../assets/css/poll-block.css";
+import "../../assets/css/poll-block.css";
 
 // Declaring poll question and answers
 // STYLING: https://github.com/viniciusmeneses/react-polls/blob/master/src/index.js
@@ -55,19 +53,11 @@ const pollAnswers4 = [
   { option: "POD officers & points of contact page", votes: 13 },
 ];
 
-class ToDos extends Component {
+class Polls extends Component {
   constructor(props) {
     super(props);
     this.state = {
       pollAnswers1: [...pollAnswers1],
-      arr: [
-        { name: "Complete Profile Setup", clicked: false },
-        { name: "Fill Out Belonging Survey", clicked: false },
-        { name: "Fill Out Professional Development Survey", clicked: false },
-        { name: "Fill Out Monthly Sentiment Survey", clicked: false },
-        { name: "Implicit Bias Test 1", clicked: false },
-        { name: "Implicit Bias Test 2", clicked: false },
-      ],
     };
   }
 
@@ -84,56 +74,11 @@ class ToDos extends Component {
     });
   };
 
-  componentDidMount() {
-    const belongingSurvey = typeformEmbed.makePopup(
-      "https://udishab.typeform.com/to/kyXsKDLO",
-      {
-        mode: "popup",
-        autoClose: 3000,
-        hideHeaders: true,
-        hideFooter: true,
-        onSubmit: () => console.log('Successfully submitted')
-      })
-
-    const developmentSurvey = typeformEmbed.makePopup(
-      "https://udishab.typeform.com/to/lb9xigDO",
-      {
-        mode: "popup",
-        autoClose: 3000,
-        hideHeaders: true,
-        hideFooter: true,
-        onSubmit: () => console.log('Successfully submitted')
-      }
-    )
-
-    const generalSurvey = typeformEmbed.makePopup(
-      'https://udishab.typeform.com/to/nFM62jbT',
-      {
-        mode: 'popup',
-        autoClose: 3000,
-        hideHeaders: true,
-        hideFooter: true,
-        onSubmit: () => console.log('Successfully submitted')
-      }
-    );
-
-    document.getElementById("1").addEventListener("click", function () {
-      belongingSurvey.open();
-    });
-
-    document.getElementById("2").addEventListener("click", function () {
-      developmentSurvey.open();
-    })
-
-    document.getElementById('3').addEventListener('click', function () {
-      generalSurvey.open();
-    })
-  }
-
 
   render() {
     const pollCustomStyles = {
       questionBold: false,
+      questionSeparator: true,
       theme: 'blue',
     };
 
@@ -142,26 +87,9 @@ class ToDos extends Component {
         <Grid fluid>
           <div className="card">
             <div className="header">
-              <h4 className="title">Tasks</h4>
+              <h4 className="title">Polls</h4>
             </div>
             <div className="content">
-              <Row>
-                <Col md={12}>
-                  <h6 className="text-success">
-                    Click to complete the tasks below
-                  </h6>
-                  {this.state.arr.map((elem, idx) => {
-                    return (
-                      <CustomCheckbox
-                        number={idx}
-                        label={elem.name}
-                        isChecked={elem.clicked}
-                      />
-                    );
-                  })}
-                </Col>
-              </Row>
-              <hr />
               <Row>
                 <Col lg={6}>
                   <Poll
@@ -204,4 +132,4 @@ class ToDos extends Component {
   }
 }
 
-export default ToDos;
+export default Polls;
