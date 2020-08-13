@@ -17,6 +17,7 @@ Behind the scenes, we will provide recommendations for HR and team managers on h
 **Measuring Cultural Impact**
 
 [View Project Submission Here](https://submissions.eng.vmware.com/borathon-eda-intern-fy21q2/submissions/23652)
+View deployed project at: https://vmaware.herokuapp.com/
 
 
 ## Authors
@@ -72,6 +73,11 @@ This full-stack web application was primarily built with the MERN (MongoDB, Expr
 * NLTK - NLP Sentiment Analysis
 * Stitch - Data pipeline
 * Selenium - Web scraping
+
+
+## Future Roadmap
+* Pull live POD membership data from [VMware Social API](https://social.vmware.com/api-docs)
+* Integrate more with VMware social features as they are released
 
 
 ## Useful Links
