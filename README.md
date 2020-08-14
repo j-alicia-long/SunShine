@@ -69,14 +69,16 @@ This full-stack web application was primarily built with the MERN (MongoDB, Expr
 * [Heroku](https://heroku.com/) - Web app deployment
 
 ### Data Analysis Tools
-* Tableau - Data Visualizations
-* NLTK - NLP Sentiment Analysis
-* Stitch - Data pipeline
-* Selenium - Web scraping
+* [Tableau](https://www.tableau.com/) - Data Visualizations
+* [Natural Language ToolKit (NLTK)](https://www.nltk.org/) - NLP Sentiment Analysis
+* [Stitch](https://www.stitchdata.com/) - Data pipelining
+* [Selenium](https://www.selenium.dev/) - Web scraping for data
 
 
 ## Future Roadmap
-* Pull live POD membership data from [VMware Social API](https://social.vmware.com/api-docs)
+* Publish application in the VMware Workspace ONE Intelligent Hub
+* User authentication with Workspace ONE
+* Pull live POD membership data from the [VMware Social API](https://social.vmware.com/api-docs)
 * Integrate more with VMware social features as they are released
 
 
