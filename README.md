@@ -17,23 +17,27 @@ Behind the scenes, we will provide recommendations for HR and team managers on h
 **Measuring Cultural Impact**
 
 [View Project Submission Here](https://submissions.eng.vmware.com/borathon-eda-intern-fy21q2/submissions/23652)
+View deployed project at: https://vmaware.herokuapp.com/
 
 
 ## Authors
 
 * **[Jason Au](https://github.com/jau8)** - *Full-stack development*
 * **[Udisha Bhattacharyya](https://github.com/udishab)** - *Data analysis, database management*
-* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack development*
-* **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack development, web scraping*
+* **[Saurav Ghosal](https://github.com/sauravghosal)** - *Full-stack development, Deployment*
+* **[Jennifer Long](https://github.com/j-alicia-long)** - *Full-stack development, web scraping, UI/UX*
 * **[Joshua Paredes](https://github.com/jparedes30)** - *Data analysis*
 
 
 ## Demo
-NOTE: UPDATE THIS WITH NEW SCREENSHOTS
 
-| Dashboard | User Profile | Tables | Maps |
-| --- | --- | --- | --- |
-| [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-react/dashboard-page.png)](https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/admin/dashboard?ref=lbdr-readme) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-react/user-page.png)](https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/admin/user-page?ref=lbdr-readme) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-react/tables-page.png)](https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/admin/table-list?ref=lbdr-readme) | [![Notifications Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/light-bootstrap-dashboard-react/notifications-page.png)](https://demos.creative-tim.com/light-bootstrap-dashboard-react/#/admin/notifications?ref=lbdr-readme) |
+| Dashboard | PODs |
+| --- | --- |
+| [![Dashboard page](/client/public/dashboard.png?raw=true)]() | [![PODs page](/client/public/pods.png?raw=true)]() |
+
+| Survey Data | User Profile |
+| --- | --- |
+| [![Survey Data page ](/client/public/survey-data.png?raw=true)]() | [![User Profile page](/client/public/profile.png?raw=true)]() |
 
 
 ## Quick start
@@ -41,8 +45,14 @@ NOTE: UPDATE THIS WITH NEW SCREENSHOTS
 Quick start options:
 
 - Clone the repo: `git clone https://github.com/j-alicia-long/SunShine.git`.
-- Install dependencies: `npm install`
-- Run the project: `npm start`
+- Install server and client dependencies:
+  ```
+    cd SunShine
+    npm install   # server dependencies
+    cd client
+    npm install   # client dependencies
+  ```
+- Run the project from the root directory: `npm run dev`
 
 
 ## Built With
@@ -58,6 +68,19 @@ This full-stack web application was primarily built with the MERN (MongoDB, Expr
 * [AWS](https://aws.amazon.com/products/databases/) - Database Hosting
 * [Heroku](https://heroku.com/) - Web app deployment
 
+### Data Analysis Tools
+* [Tableau](https://www.tableau.com/) - Data Visualizations
+* [Natural Language ToolKit (NLTK)](https://www.nltk.org/) - NLP Sentiment Analysis
+* [Stitch](https://www.stitchdata.com/) - Data pipelining
+* [Selenium](https://www.selenium.dev/) - Web scraping for data
+
+
+## Future Roadmap
+* Publish application in the VMware Workspace ONE Intelligent Hub
+* User authentication with Workspace ONE
+* Pull live POD membership data from the [VMware Social API](https://social.vmware.com/api-docs)
+* Integrate more with VMware social features as they are released
+
 
 ## Useful Links
 
@@ -66,6 +89,8 @@ Borathon info website: https://submissions.eng.vmware.com/borathon-eda-intern-fy
 Project Submission: https://submissions.eng.vmware.com/borathon-eda-intern-fy21q2/submissions/23652
 
 Google Drive planning folder: https://drive.google.com/drive/u/0/folders/1CUlmwjvJl4H7xTvWgDBrZL4aeIDKBj9q
+
+Tableau Dashboards: https://public.tableau.com/profile/joshua.paredes#!/
 
 Setting up a full-stack NodeJS application
 - https://stackoverflow.com/questions/58070919/how-to-run-one-npm-start-for-two-different-folders-in-my-project-directory
